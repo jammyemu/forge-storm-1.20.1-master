@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "storm:block/poplar_log",
+    "side": "storm:block/poplar_log"
+  }
+}

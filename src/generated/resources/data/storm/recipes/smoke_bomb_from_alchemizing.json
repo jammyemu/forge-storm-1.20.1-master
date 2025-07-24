@@ -1,0 +1,11 @@
+{
+  "type": "storm:alchemizing",
+  "ingredients": [
+    {
+      "item": "storm:ridoneite"
+    }
+  ],
+  "output": {
+    "item": "storm:smoke_bomb"
+  }
+}

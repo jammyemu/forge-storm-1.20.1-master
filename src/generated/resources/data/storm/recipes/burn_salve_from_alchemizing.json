@@ -1,0 +1,11 @@
+{
+  "type": "storm:alchemizing",
+  "ingredients": [
+    {
+      "item": "storm:illoite"
+    }
+  ],
+  "output": {
+    "item": "storm:burn_salve"
+  }
+}

@@ -1,0 +1,4 @@
+// 1.20.1	2025-07-22T15:46:49.9054058	Tags for minecraft:block mod id storm
+d1712d2ff153238024af5f6785b4974f55711f62 data/minecraft/tags/blocks/logs_that_burn.json
+be1e147300080f76d096540710c975c150e49b9d data/minecraft/tags/blocks/mineable/pickaxe.json
+b76f45123947da36101019f4d6a89752f6b3e282 data/minecraft/tags/blocks/planks.json

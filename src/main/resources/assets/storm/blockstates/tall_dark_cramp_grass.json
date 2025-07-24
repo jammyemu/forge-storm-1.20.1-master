@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "half=lower": { "model": "storm:block/tall_dark_cramp_grass_bottom" },
+    "half=upper":    { "model": "storm:block/tall_dark_cramp_grass_top" }
+  }
+}

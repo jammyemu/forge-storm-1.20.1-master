@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "storm:block/muriar_slab"
+    },
+    "type=double": {
+      "model": "storm:block/muriar_planks"
+    },
+    "type=top": {
+      "model": "storm:block/muriar_slab_top"
+    }
+  }
+}

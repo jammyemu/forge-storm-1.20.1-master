@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "storm:mossy_phyllite_bricks"
+  },
+  "result": "storm:mossy_phyllite_brick_stairs"
+}

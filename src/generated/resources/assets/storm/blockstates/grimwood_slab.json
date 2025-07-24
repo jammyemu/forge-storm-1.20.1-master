@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "storm:block/grimwood_slab"
+    },
+    "type=double": {
+      "model": "storm:block/grimwood_planks"
+    },
+    "type=top": {
+      "model": "storm:block/grimwood_slab_top"
+    }
+  }
+}

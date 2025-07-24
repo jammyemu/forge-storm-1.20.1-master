@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "pattern": [
+    " # ",
+    "SSS",
+    " S "
+  ],
+  "result": {
+    "count": 5,
+    "item": "storm:gold_gilded_deepslate_bricks"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "storm:block/cramped_stone",
+    "side": "storm:block/cramped_stone",
+    "top": "storm:block/cramped_stone"
+  }
+}

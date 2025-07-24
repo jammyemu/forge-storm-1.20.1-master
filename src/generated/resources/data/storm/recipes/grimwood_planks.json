@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "storm:grimwood_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "storm:grimwood_planks"
+  }
+}

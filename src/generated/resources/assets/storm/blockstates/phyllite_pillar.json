@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "storm:block/phyllite_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "storm:block/phyllite_pillar"
+    },
+    "axis=z": {
+      "model": "storm:block/phyllite_pillar_horizontal",
+      "x": 90
+    }
+  }
+}

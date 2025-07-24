@@ -1,0 +1,22 @@
+{
+  "values": [
+    "storm:grimwood_log",
+    "storm:grimwood_wood",
+    "storm:stripped_grimwood_log",
+    "storm:stripped_grimwood_wood",
+    "storm:bogbirch_log",
+    "storm:bogbirch_wood",
+    "storm:stripped_bogbirch_log",
+    "storm:stripped_bogbirch_wood",
+    "storm:poplar_log",
+    "storm:poplar_wood",
+    "storm:stripped_poplar_log",
+    "storm:stripped_poplar_wood",
+    "storm:muriar_log",
+    "storm:muriar_wood",
+    "storm:stripped_muriar_log",
+    "storm:stripped_muriar_wood",
+    "storm:weathered_spruce_log",
+    "storm:weathered_spruce_wood"
+  ]
+}

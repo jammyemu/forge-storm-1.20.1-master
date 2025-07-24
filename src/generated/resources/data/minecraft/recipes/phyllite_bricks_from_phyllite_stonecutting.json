@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "storm:phyllite"
+  },
+  "result": "storm:phyllite_bricks"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "storm:alchemizing",
+  "ingredients": [
+    {
+      "item": "storm:etherium"
+    }
+  ],
+  "output": {
+    "item": "storm:poison_essence"
+  }
+}

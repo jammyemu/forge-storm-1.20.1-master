@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "particle": "storm:block/cramped_earth",
+    "bottom": "storm:block/cramped_earth",
+    "side": "storm:block/cramped_grass_side",
+    "top": "storm:block/cramped_grass_top"
+  }
+}

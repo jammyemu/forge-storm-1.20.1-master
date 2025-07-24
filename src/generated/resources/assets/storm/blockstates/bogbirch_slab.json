@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "storm:block/bogbirch_slab"
+    },
+    "type=double": {
+      "model": "storm:block/bogbirch_planks"
+    },
+    "type=top": {
+      "model": "storm:block/bogbirch_slab_top"
+    }
+  }
+}

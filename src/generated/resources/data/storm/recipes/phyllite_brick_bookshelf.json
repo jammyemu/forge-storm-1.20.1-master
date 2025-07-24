@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "storm:empty_phyllite_brick_bookshelf"
+    }
+  ],
+  "result": {
+    "item": "storm:phyllite_brick_bookshelf"
+  }
+}

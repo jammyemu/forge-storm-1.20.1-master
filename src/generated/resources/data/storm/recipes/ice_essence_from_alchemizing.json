@@ -1,0 +1,11 @@
+{
+  "type": "storm:alchemizing",
+  "ingredients": [
+    {
+      "item": "storm:starmear"
+    }
+  ],
+  "output": {
+    "item": "storm:ice_essence"
+  }
+}

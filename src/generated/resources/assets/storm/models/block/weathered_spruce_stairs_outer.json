@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "storm:block/weathered_spruce_planks",
+    "side": "storm:block/weathered_spruce_planks",
+    "top": "storm:block/weathered_spruce_planks"
+  }
+}

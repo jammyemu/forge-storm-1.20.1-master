@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "storm:item/short_dark_cramped_grass"
+  }
+}

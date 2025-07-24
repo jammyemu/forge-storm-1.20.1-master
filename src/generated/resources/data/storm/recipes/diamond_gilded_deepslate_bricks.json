@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "pattern": [
+    " # ",
+    "SSS",
+    " S "
+  ],
+  "result": {
+    "count": 5,
+    "item": "storm:diamond_gilded_deepslate_bricks"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "storm:empty_stone_brick_bookshelf"
+    }
+  ],
+  "result": {
+    "item": "storm:stone_brick_bookshelf"
+  }
+}

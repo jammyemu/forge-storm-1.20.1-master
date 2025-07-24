@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "storm:block/cracked_phyllite_brick_slab"
+    },
+    "type=double": {
+      "model": "storm:block/cracked_phyllite_bricks"
+    },
+    "type=top": {
+      "model": "storm:block/cracked_phyllite_brick_slab_top"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "storm:cramped_stone"
+    },
+    {
+      "item": "storm:cramped_stone"
+    },
+    {
+      "item": "storm:cramped_stone"
+    },
+    {
+      "item": "storm:cramped_stone"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "storm:cramp_mud_bricks"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "storm:block/andesite_bricks_heavy_top",
+    "side": "storm:block/andesite_bricks_heavy"
+  }
+}

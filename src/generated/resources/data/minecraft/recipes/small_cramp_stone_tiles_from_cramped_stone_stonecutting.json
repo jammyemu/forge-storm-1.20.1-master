@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "storm:cramped_stone"
+  },
+  "result": "storm:small_cramp_stone_tiles"
+}

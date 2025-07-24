@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "storm:block/weathered_spruce_planks"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "storm:block/weathered_spruce_slab"
+    },
+    "type=double": {
+      "model": "storm:block/weathered_spruce_planks"
+    },
+    "type=top": {
+      "model": "storm:block/weathered_spruce_slab_top"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "storm:block/weathered_spruce_planks"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "storm:poplar_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "storm:poplar_planks"
+  }
+}

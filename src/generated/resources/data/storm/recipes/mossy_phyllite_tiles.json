@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "storm:phyllite_tiles"
+    },
+    {
+      "item": "storm:phyllite_tiles"
+    },
+    {
+      "item": "storm:phyllite_tiles"
+    },
+    {
+      "item": "storm:phyllite_tiles"
+    },
+    {
+      "item": "minecraft:moss_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "storm:mossy_phyllite_tiles"
+  }
+}

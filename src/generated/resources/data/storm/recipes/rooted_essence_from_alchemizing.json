@@ -1,0 +1,11 @@
+{
+  "type": "storm:alchemizing",
+  "ingredients": [
+    {
+      "item": "storm:kroteis"
+    }
+  ],
+  "output": {
+    "item": "storm:rooted_essence"
+  }
+}

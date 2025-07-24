@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "storm:block/cramped_stone",
+    "side": "storm:block/cramped_stone",
+    "top": "storm:block/cramped_stone"
+  }
+}

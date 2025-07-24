@@ -1,0 +1,22 @@
+{
+  "clown_horn": {
+    "sounds": [
+      "storm:clown_horn"
+    ]
+  },
+  "crab_walk": {
+    "sounds": [
+      "storm:crab_walk"
+    ]
+  },
+  "crab_hurt": {
+    "sounds": [
+      "storm:crab_hurt"
+    ]
+  },
+  "crab_squeak": {
+    "sounds": [
+      "storm:crab_squeak"
+    ]
+  }
+}

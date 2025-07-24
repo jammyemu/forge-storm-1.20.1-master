@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "storm:block/cramped_stone_slab"
+    },
+    "type=double": {
+      "model": "storm:block/cramped_stone"
+    },
+    "type=top": {
+      "model": "storm:block/cramped_stone_slab_top"
+    }
+  }
+}

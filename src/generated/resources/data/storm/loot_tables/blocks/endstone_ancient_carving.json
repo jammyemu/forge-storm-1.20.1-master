@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "storm:endstone_ancient_carving"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "storm:blocks/endstone_ancient_carving"
+}

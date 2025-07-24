@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "storm:decayed_endstone"
+    },
+    {
+      "item": "storm:decayed_endstone"
+    },
+    {
+      "item": "storm:decayed_endstone"
+    },
+    {
+      "item": "storm:decayed_endstone"
+    },
+    {
+      "item": "minecraft:moss_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "storm:mossy_decayed_endstone"
+  }
+}

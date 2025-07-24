@@ -1,0 +1,11 @@
+{
+  "type": "storm:alchemizing",
+  "ingredients": [
+    {
+      "item": "storm:geolium"
+    }
+  ],
+  "output": {
+    "item": "storm:pocket_sand"
+  }
+}
