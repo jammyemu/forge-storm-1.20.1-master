@@ -126,6 +126,18 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.REINFORCED_STICK.get());
                         pOutput.accept(ModItems.BASIC_STEEL_INGOT.get());
 
+                        pOutput.accept(ModItems.ADRENALINE_SYRINGE.get());
+                        pOutput.accept(ModItems.ANCIENT_TOME.get());
+                        pOutput.accept(ModItems.DARK_SCALE.get());
+                        pOutput.accept(ModItems.GOLD_KEY.get());
+                        pOutput.accept(ModItems.OLD_CHALICE.get());
+                        pOutput.accept(ModItems.OLD_COIN.get());
+                        pOutput.accept(ModItems.RUSTED_KEY.get());
+                        pOutput.accept(ModItems.RUSTED_PENDANT.get());
+                        pOutput.accept(ModItems.SILVER_KEY.get());
+                        pOutput.accept(ModItems.STRANGE_POUCH.get());
+                        pOutput.accept(ModItems.UNCOVERED_POTTERY.get());
+
 
                         pOutput.accept(ModItems.PURE_WATER_BUCKET.get());
                         pOutput.accept(ModItems.VOID_LIQUID_BUCKET.get());

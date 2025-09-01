@@ -140,6 +140,19 @@ public class ModItems {
     public static final RegistryObject<Item> FELLO_COIN_NUGGET = ITEMS.register("fello_coin_nugget", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BASIC_STEEL_INGOT = ITEMS.register("basic_steel_ingot", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ADRENALINE_SYRINGE = ITEMS.register("adrenaline_syringe", () -> new ModCombatSystemItem(new Item.Properties().food(ModFoods.COMBAT_ITEM)));
+    public static final RegistryObject<Item> ANCIENT_TOME = ITEMS.register("ancient_tome", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DARK_SCALE = ITEMS.register("dark_scale", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLD_KEY = ITEMS.register("gold_key", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> OLD_CHALICE = ITEMS.register("old_chalice", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> OLD_COIN = ITEMS.register("old_coin", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RUSTED_KEY = ITEMS.register("rusted_key", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RUSTED_PENDANT = ITEMS.register("rusted_pendant", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SILVER_KEY = ITEMS.register("silver_key", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STRANGE_POUCH = ITEMS.register("strange_pouch", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> UNCOVERED_POTTERY = ITEMS.register("uncovered_pottery", () -> new Item(new Item.Properties()));
+
+
     public static final RegistryObject<Item> SWAMP_LOAF = ITEMS.register("swamp_loaf", () -> new Item(new Item.Properties().food(ModFoods.SWAMP_LOAF)));
 
     public static final RegistryObject<Item> CRYSTAL_SKELETON_SPAWN_EGG = ITEMS.register("crystal_skeleton_spawn_egg", () -> new ForgeSpawnEggItem(ModEntities.CRYSTAL_SKELETON, 0xD57E36, 0xE234A5, new Item.Properties()));

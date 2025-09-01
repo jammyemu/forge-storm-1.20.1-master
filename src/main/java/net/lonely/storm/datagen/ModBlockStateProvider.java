@@ -381,12 +381,24 @@ public class ModBlockStateProvider extends BlockStateProvider {
         slabBlock(((SlabBlock) ModBlocks.POPLAR_SLAB.get()), blockTexture(ModBlocks.POPLAR_PLANKS.get()), blockTexture(ModBlocks.POPLAR_PLANKS.get()));
         blockItem(ModBlocks.POPLAR_SLAB);
 
-        //horizontalBlock(ModBlocks.PHYLLITE_BRICK_BOOKSHELF.get(), modLoc("block/phyllite_brick_bookshelf"), modLoc("block/phyllite_brick_bookshelf"), modLoc("block/phyllite_bricks"));
-        //horizontalBlock(ModBlocks.EMPTY_PHYLLITE_BRICK_BOOKSHELF.get(), modLoc("block/empty_phyllite_brick_bookshelf"), modLoc("block/empty_phyllite_brick_bookshelf"), modLoc("block/phyllite_bricks"));
-        //horizontalBlock(ModBlocks.SANDSTONE_BOOKSHELF.get(), modLoc("block/sandstone_bookshelf"), modLoc("block/sandstone_brick_bookshelf"), modLoc("block/sandstone_bricks"));
-        //horizontalBlock(ModBlocks.EMPTY_SANDSTONE_BOOKSHELF.get(), modLoc("block/empty_sandstone_brick_bookshelf"), modLoc("block/empty_sandstone_brick_bookshelf"), modLoc("block/sandstone_bricks"));
-        //horizontalBlock(ModBlocks.STONE_BRICK_BOOKSHELF.get(), modLoc("block/stone_brick_bookshelf"), modLoc("block/stone_brick_bookshelf"), modLoc("block/stone_bricks"));
-        //horizontalBlock(ModBlocks.EMPTY_STONE_BRICK_BOOKSHELF.get(), modLoc("block/empty_stone_brick_bookshelf"), modLoc("block/empty_stone_brick_bookshelf"), modLoc("block/stone_bricks"));
+
+        axisBlock(((RotatedPillarBlock) ModBlocks.PHYLLITE_BRICK_BOOKSHELF.get()), modLoc("block/phyllite_brick_bookshelf"), blockTexture(ModBlocks.PHYLLITE_BRICKS.get()));
+        blockItem(ModBlocks.PHYLLITE_BRICK_BOOKSHELF);
+
+        axisBlock(((RotatedPillarBlock) ModBlocks.EMPTY_PHYLLITE_BRICK_BOOKSHELF.get()), modLoc("block/empty_phyllite_brick_bookshelf"), blockTexture(ModBlocks.PHYLLITE_BRICKS.get()));
+        blockItem(ModBlocks.EMPTY_PHYLLITE_BRICK_BOOKSHELF);
+
+        axisBlock(((RotatedPillarBlock) ModBlocks.SANDSTONE_BOOKSHELF.get()), modLoc("block/sandstone_bookshelf"), blockTexture(Blocks.SANDSTONE));
+        blockItem(ModBlocks.SANDSTONE_BOOKSHELF);
+
+        axisBlock(((RotatedPillarBlock) ModBlocks.EMPTY_SANDSTONE_BOOKSHELF.get()), modLoc("block/empty_sandstone_bookshelf"), blockTexture(Blocks.SANDSTONE));
+        blockItem(ModBlocks.EMPTY_SANDSTONE_BOOKSHELF);
+
+        axisBlock(((RotatedPillarBlock) ModBlocks.STONE_BRICK_BOOKSHELF.get()), modLoc("block/stone_brick_bookshelf"), blockTexture(Blocks.STONE_BRICKS));
+        blockItem(ModBlocks.STONE_BRICK_BOOKSHELF);
+
+        axisBlock(((RotatedPillarBlock) ModBlocks.EMPTY_STONE_BRICK_BOOKSHELF.get()), modLoc("block/empty_stone_brick_bookshelf"), blockTexture(Blocks.STONE_BRICKS));
+        blockItem(ModBlocks.EMPTY_STONE_BRICK_BOOKSHELF);
 
         horizontalBlock(ModBlocks.ALCHEMIZING_STATION.get(), new ModelFile.UncheckedModelFile(modLoc("block/alchemizing_station")));
 

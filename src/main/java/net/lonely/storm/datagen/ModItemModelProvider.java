@@ -73,7 +73,17 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.WEATHERED_SPRUCE_DOOR);
         simpleItem(ModItems.WEATHERED_SPRUCE_SIGN);
 
-
+        simpleItem(ModItems.ADRENALINE_SYRINGE);
+        simpleItem(ModItems.DARK_SCALE);
+        simpleItem(ModItems.ANCIENT_TOME);
+        simpleItem(ModItems.GOLD_KEY);
+        simpleItem(ModItems.OLD_CHALICE);
+        simpleItem(ModItems.OLD_COIN);
+        simpleItem(ModItems.RUSTED_KEY);
+        simpleItem(ModItems.RUSTED_PENDANT);
+        simpleItem(ModItems.SILVER_KEY);
+        simpleItem(ModItems.STRANGE_POUCH);
+        simpleItem(ModItems.UNCOVERED_POTTERY);
 
 
         simpleItem(ModItems.SWAMP_ROOT);
