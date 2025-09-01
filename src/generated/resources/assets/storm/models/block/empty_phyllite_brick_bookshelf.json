@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "storm:block/empty_phyllite_brick_bookshelf"
-  }
-}

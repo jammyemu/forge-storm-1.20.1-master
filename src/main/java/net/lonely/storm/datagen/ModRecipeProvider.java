@@ -294,13 +294,46 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.SWAMP_ROOT.get()), has(ModItems.SWAMP_ROOT.get()))
                 .save(pWriter);
 
-        new AlchemizingRecipeBuilder(ModItems.STARMEAR.get(), ModItems.ICE_ESSENCE.get(), 1).unlockedBy("has_starmear", has(ModItems.STARMEAR.get())).save(pWriter);
+        new AlchemizingRecipeBuilder(ModItems.ETHERIUM.get(), ModItems.POISON_ESSENCE.get(), 1).unlockedBy("has_etherium", has(ModItems.ETHERIUM.get())).save(pWriter);
+        new AlchemizingRecipeBuilder(ModItems.FLORIUM.get(), ModItems.ANTIDOTE.get(), 1).unlockedBy("has_florium", has(ModItems.FLORIUM.get())).save(pWriter);
+        new AlchemizingRecipeBuilder(ModItems.GEOLIUM.get(), ModItems.POCKET_SAND.get(), 1).unlockedBy("has_geolium", has(ModItems.GEOLIUM.get())).save(pWriter);
         new AlchemizingRecipeBuilder(ModItems.ILLOITE.get(), ModItems.BURN_SALVE.get(), 1).unlockedBy("has_illoite", has(ModItems.ILLOITE.get())).save(pWriter);
         new AlchemizingRecipeBuilder(ModItems.KROTEIS.get(), ModItems.ROOTED_ESSENCE.get(), 1).unlockedBy("has_kroteis", has(ModItems.KROTEIS.get())).save(pWriter);
-        new AlchemizingRecipeBuilder(ModItems.ETHERIUM.get(), ModItems.POISON_ESSENCE.get(), 1).unlockedBy("has_etherium", has(ModItems.ETHERIUM.get())).save(pWriter);
+        new AlchemizingRecipeBuilder(ModItems.ORIBIUM.get(), ModItems.POPPER.get(), 1).unlockedBy("has_oribium", has(ModItems.ORIBIUM.get())).save(pWriter);
+        new AlchemizingRecipeBuilder(ModItems.PHOENITE.get(), ModItems.SPEED_POTION.get(), 1).unlockedBy("has_phoenite", has(ModItems.PHOENITE.get())).save(pWriter);
         new AlchemizingRecipeBuilder(ModItems.RIDONEITE.get(), ModItems.SMOKE_BOMB.get(), 1).unlockedBy("has_ridoneite", has(ModItems.RIDONEITE.get())).save(pWriter);
-        new AlchemizingRecipeBuilder(ModItems.GEOLIUM.get(), ModItems.POCKET_SAND.get(), 1).unlockedBy("has_geolium", has(ModItems.GEOLIUM.get())).save(pWriter);
+        new AlchemizingRecipeBuilder(ModItems.STARMEAR.get(), ModItems.ICE_ESSENCE.get(), 1).unlockedBy("has_starmear", has(ModItems.STARMEAR.get())).save(pWriter);
+        new AlchemizingRecipeBuilder(ModItems.STRANGERS_DIAMOND.get(), ModItems.HEALTH_POTION.get(), 1).unlockedBy("has_strangers_diamond", has(ModItems.STRANGERS_DIAMOND.get())).save(pWriter);
+        new AlchemizingRecipeBuilder(ModItems.THE_LOST.get(), ModItems.FIRE_ESSENCE.get(), 1).unlockedBy("has_the_lost", has(ModItems.THE_LOST.get())).save(pWriter);
+        new AlchemizingRecipeBuilder(ModItems.THORIUM.get(), ModItems.COFFEE.get(), 1).unlockedBy("has_thorium", has(ModItems.THORIUM.get())).save(pWriter);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.POISON_ESSENCE_SPRAY.get(), 1)
+                .requires(Items.GLASS_BOTTLE, 1)
+                .requires(Items.GUNPOWDER, 1)
+                .requires(ModItems.POISON_ESSENCE.get(), 1)
+                .unlockedBy("has_etherium", has(ModItems.ETHERIUM.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ROOTED_ESSENCE_SPRAY.get(), 1)
+                .requires(Items.GLASS_BOTTLE, 1)
+                .requires(Items.GUNPOWDER, 1)
+                .requires(ModItems.ROOTED_ESSENCE.get(), 1)
+                .unlockedBy("has_kroteis", has(ModItems.KROTEIS.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ICE_ESSENCE_SPRAY.get(), 1)
+                .requires(Items.GLASS_BOTTLE, 1)
+                .requires(Items.GUNPOWDER, 1)
+                .requires(ModItems.ICE_ESSENCE.get(), 1)
+                .unlockedBy("has_starmear", has(ModItems.STARMEAR.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FIRE_ESSENCE_SPRAY.get(), 1)
+                .requires(Items.GLASS_BOTTLE, 1)
+                .requires(Items.GUNPOWDER, 1)
+                .requires(ModItems.FIRE_ESSENCE.get(), 1)
+                .unlockedBy("has_the_lost", has(ModItems.THE_LOST.get()))
+                .save(pWriter);
     }
 
     protected static void stonecutter(Consumer<FinishedRecipe> pFinishedRecipeConsumer, RecipeCategory pCategory, ItemLike pResult, ItemLike pMaterial) {

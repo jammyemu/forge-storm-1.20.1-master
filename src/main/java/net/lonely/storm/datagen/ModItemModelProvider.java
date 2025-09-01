@@ -114,6 +114,76 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         complexBlock(ModBlocks.ALCHEMIZING_STATION.get());
 
+        handheldItem(ModItems.REINFORCED_STICK);
+        handheldItem(ModItems.MANAS_AXE);
+        handheldItem(ModItems.MANAS_HOE);
+        handheldItem(ModItems.MANAS_PICKAXE);
+        handheldItem(ModItems.MANAS_SHOVEL);
+
+        handheldItem(ModItems.ABYSSAL_SWORD);
+        handheldItem(ModItems.BEJEWELED_SWORD);
+        handheldItem(ModItems.BLACK_SWORD);
+        handheldItem(ModItems.BLAZE_SWORD);
+        handheldItem(ModItems.BLUE_GRADIENT_SWORD);
+        handheldItem(ModItems.BLUE_SWORD);
+        handheldItem(ModItems.COOKED_SWORDFISH);
+        handheldItem(ModItems.ETHERIAL_SWORD);
+        handheldItem(ModItems.FRILL_SWORD);
+        handheldItem(ModItems.FROZEN_SWORD);
+        handheldItem(ModItems.GILDED_SWORD);
+        handheldItem(ModItems.GREEN_SWORD);
+        handheldItem(ModItems.HYBRID_AXE);
+        handheldItem(ModItems.KHOPESH);
+        handheldItem(ModItems.LIME_SWORD);
+        handheldItem(ModItems.MAGMA_SWORD);
+        handheldItem(ModItems.MANAS_BATTLESTAFF);
+        handheldItem(ModItems.MANAS_BRACER);
+        handheldItem(ModItems.MANAS_CLAWS);
+        handheldItem(ModItems.MANAS_CLAYMORE);
+        handheldItem(ModItems.MANAS_DAGGER);
+        handheldItem(ModItems.MANAS_GLAIVE);
+        handheldItem(ModItems.MANAS_GREATSWORD);
+        handheldItem(ModItems.MANAS_HALBERD);
+        handheldItem(ModItems.MANAS_HAMMER);
+        handheldItem(ModItems.MANAS_KATANA);
+        handheldItem(ModItems.MANAS_KNUCKLES);
+        handheldItem(ModItems.MANAS_MACE);
+        handheldItem(ModItems.MANAS_RAPIER);
+        handheldItem(ModItems.MANAS_SCIMITAR);
+        handheldItem(ModItems.MANAS_SICKLE);
+        handheldItem(ModItems.MANAS_SPEAR);
+        handheldItem(ModItems.MANAS_SWORD);
+        handheldItem(ModItems.MIROS_SWORD);
+        handheldItem(ModItems.OBSIDIAN_HAMMER);
+        handheldItem(ModItems.ORANGE_SWORD);
+        handheldItem(ModItems.PARROT_SWORD);
+        handheldItem(ModItems.PINK_SWORD);
+        handheldItem(ModItems.PRISMARINE_SWORD);
+        handheldItem(ModItems.PURPLE_BEAM_SWORD);
+        handheldItem(ModItems.PURPLE_SWORD);
+        handheldItem(ModItems.RAINBOW_GRADIENT_SWORD);
+        handheldItem(ModItems.RED_SWORD);
+        handheldItem(ModItems.RUSTED_SWORD);
+        handheldItem(ModItems.SALMON_SWORD);
+        handheldItem(ModItems.SLIME_SWORD);
+        handheldItem(ModItems.SWORDFISH);
+        handheldItem(ModItems.TEMS_BATTLESTAFF);
+        handheldItem(ModItems.TUFF_SW0RD);
+        handheldItem(ModItems.YELLOW_SWORD);
+        handheldItem(ModItems.ZOE_GREATSWORD);
+
+        simpleItem(ModItems.BASIC_STEEL_INGOT);
+        simpleItem(ModItems.FELLO_COIN_NUGGET);
+        simpleItem(ModItems.FELLO_COIN);
+        simpleItem(ModItems.NINETEEN_EIGHTY_FOUR);
+        simpleItem(ModItems.MUSIC_DISC_RECLAIMED);
+        simpleItem(ModItems.ROZIE_HORN);
+        simpleItem(ModItems.MANAS_INGOT);
+
+        simpleItem(ModItems.ATTACK_NECKLACE);
+        simpleItem(ModItems.ATTACK_RING);
+        simpleItem(ModItems.DEFENCE_NECKLACE);
+        simpleItem(ModItems.DEFENCE_RING);
 
     }
 

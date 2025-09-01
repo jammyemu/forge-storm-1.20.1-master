@@ -288,7 +288,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 blockTexture(ModBlocks.MURIAR_PLANKS.get()));
 
 
-
         logBlock(((RotatedPillarBlock) ModBlocks.WEATHERED_SPRUCE_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.WEATHERED_SPRUCE_WOOD.get()), blockTexture(ModBlocks.WEATHERED_SPRUCE_LOG.get()), blockTexture(ModBlocks.WEATHERED_SPRUCE_LOG.get()));
         blockItem(ModBlocks.WEATHERED_SPRUCE_LOG);
@@ -382,14 +381,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         slabBlock(((SlabBlock) ModBlocks.POPLAR_SLAB.get()), blockTexture(ModBlocks.POPLAR_PLANKS.get()), blockTexture(ModBlocks.POPLAR_PLANKS.get()));
         blockItem(ModBlocks.POPLAR_SLAB);
 
-
-
-        blockWithItem(ModBlocks.PHYLLITE_BRICK_BOOKSHELF);
-        blockWithItem(ModBlocks.EMPTY_PHYLLITE_BRICK_BOOKSHELF);
-        blockWithItem(ModBlocks.SANDSTONE_BOOKSHELF);
-        blockWithItem(ModBlocks.EMPTY_SANDSTONE_BOOKSHELF);
-        blockWithItem(ModBlocks.STONE_BRICK_BOOKSHELF);
-        blockWithItem(ModBlocks.EMPTY_STONE_BRICK_BOOKSHELF);
+        //horizontalBlock(ModBlocks.PHYLLITE_BRICK_BOOKSHELF.get(), modLoc("block/phyllite_brick_bookshelf"), modLoc("block/phyllite_brick_bookshelf"), modLoc("block/phyllite_bricks"));
+        //horizontalBlock(ModBlocks.EMPTY_PHYLLITE_BRICK_BOOKSHELF.get(), modLoc("block/empty_phyllite_brick_bookshelf"), modLoc("block/empty_phyllite_brick_bookshelf"), modLoc("block/phyllite_bricks"));
+        //horizontalBlock(ModBlocks.SANDSTONE_BOOKSHELF.get(), modLoc("block/sandstone_bookshelf"), modLoc("block/sandstone_brick_bookshelf"), modLoc("block/sandstone_bricks"));
+        //horizontalBlock(ModBlocks.EMPTY_SANDSTONE_BOOKSHELF.get(), modLoc("block/empty_sandstone_brick_bookshelf"), modLoc("block/empty_sandstone_brick_bookshelf"), modLoc("block/sandstone_bricks"));
+        //horizontalBlock(ModBlocks.STONE_BRICK_BOOKSHELF.get(), modLoc("block/stone_brick_bookshelf"), modLoc("block/stone_brick_bookshelf"), modLoc("block/stone_bricks"));
+        //horizontalBlock(ModBlocks.EMPTY_STONE_BRICK_BOOKSHELF.get(), modLoc("block/empty_stone_brick_bookshelf"), modLoc("block/empty_stone_brick_bookshelf"), modLoc("block/stone_bricks"));
 
         horizontalBlock(ModBlocks.ALCHEMIZING_STATION.get(), new ModelFile.UncheckedModelFile(modLoc("block/alchemizing_station")));
 
@@ -439,14 +436,20 @@ public class ModBlockStateProvider extends BlockStateProvider {
         return key(block).getPath();
     }
 
-    public void signBlock(StandingSignBlock signBlock, WallSignBlock wallSignBlock, ResourceLocation texture) {
+   /* public void signBlock(StandingSignBlock signBlock, WallSignBlock wallSignBlock, ResourceLocation texture) {
         ModelFile sign = models().sign(name(signBlock), texture);
         signBlock(signBlock, wallSignBlock, sign);
-    }
+    }*/
 
     public void signBlock(StandingSignBlock signBlock, WallSignBlock wallSignBlock, ModelFile sign) {
         simpleBlock(signBlock, sign);
         simpleBlock(wallSignBlock, sign);
+    }
+
+    public void axisBlock(RotatedPillarBlock block, ResourceLocation side, ResourceLocation end) {
+        axisBlock(block,
+                models().cubeColumn(name(block), side, end),
+                models().cubeColumnHorizontal(name(block) + "_horizontal", side, end));
     }
 
     /*

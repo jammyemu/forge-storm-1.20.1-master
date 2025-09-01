@@ -21,6 +21,68 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.item_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
+                        pOutput.accept(ModItems.ABYSSAL_SWORD.get());
+                        pOutput.accept(ModItems.BEJEWELED_SWORD.get());
+                        pOutput.accept(ModItems.BLACK_SWORD.get());
+                        pOutput.accept(ModItems.BLAZE_SWORD.get());
+                        pOutput.accept(ModItems.BLUE_GRADIENT_SWORD.get());
+                        pOutput.accept(ModItems.BLUE_SWORD.get());
+                        pOutput.accept(ModItems.COOKED_SWORDFISH.get());
+                        pOutput.accept(ModItems.ETHERIAL_SWORD.get());
+                        pOutput.accept(ModItems.FRILL_SWORD.get());
+                        pOutput.accept(ModItems.FROZEN_SWORD.get());
+                        pOutput.accept(ModItems.GILDED_SWORD.get());
+                        pOutput.accept(ModItems.GREEN_SWORD.get());
+                        pOutput.accept(ModItems.HYBRID_AXE.get());
+                        pOutput.accept(ModItems.KHOPESH.get());
+                        pOutput.accept(ModItems.LIME_SWORD.get());
+                        pOutput.accept(ModItems.MAGMA_SWORD.get());
+                        pOutput.accept(ModItems.MIROS_SWORD.get());
+                        pOutput.accept(ModItems.OBSIDIAN_HAMMER.get());
+                        pOutput.accept(ModItems.ORANGE_SWORD.get());
+                        pOutput.accept(ModItems.PARROT_SWORD.get());
+                        pOutput.accept(ModItems.PINK_SWORD.get());
+                        pOutput.accept(ModItems.PRISMARINE_SWORD.get());
+                        pOutput.accept(ModItems.PURPLE_BEAM_SWORD.get());
+                        pOutput.accept(ModItems.PURPLE_SWORD.get());
+                        pOutput.accept(ModItems.RAINBOW_GRADIENT_SWORD.get());
+                        pOutput.accept(ModItems.RED_SWORD.get());
+                        pOutput.accept(ModItems.RUSTED_SWORD.get());
+                        pOutput.accept(ModItems.SALMON_SWORD.get());
+                        pOutput.accept(ModItems.SLIME_SWORD.get());
+                        pOutput.accept(ModItems.SWORDFISH.get());
+                        pOutput.accept(ModItems.TEMS_BATTLESTAFF.get());
+                        pOutput.accept(ModItems.TUFF_SW0RD.get());
+                        pOutput.accept(ModItems.YELLOW_SWORD.get());
+                        pOutput.accept(ModItems.ZOE_GREATSWORD.get());
+
+                        pOutput.accept(ModItems.ATTACK_NECKLACE.get());
+                        pOutput.accept(ModItems.ATTACK_RING.get());
+                        pOutput.accept(ModItems.DEFENCE_NECKLACE.get());
+                        pOutput.accept(ModItems.DEFENCE_RING.get());
+
+                        pOutput.accept(ModItems.MANAS_INGOT.get());
+                        pOutput.accept(ModItems.MANAS_AXE.get());
+                        pOutput.accept(ModItems.MANAS_HOE.get());
+                        pOutput.accept(ModItems.MANAS_PICKAXE.get());
+                        pOutput.accept(ModItems.MANAS_SHOVEL.get());
+                        pOutput.accept(ModItems.MANAS_BATTLESTAFF.get());
+                        pOutput.accept(ModItems.MANAS_BRACER.get());
+                        pOutput.accept(ModItems.MANAS_CLAWS.get());
+                        pOutput.accept(ModItems.MANAS_CLAYMORE.get());
+                        pOutput.accept(ModItems.MANAS_DAGGER.get());
+                        pOutput.accept(ModItems.MANAS_GLAIVE.get());
+                        pOutput.accept(ModItems.MANAS_GREATSWORD.get());
+                        pOutput.accept(ModItems.MANAS_HALBERD.get());
+                        pOutput.accept(ModItems.MANAS_HAMMER.get());
+                        pOutput.accept(ModItems.MANAS_KATANA.get());
+                        pOutput.accept(ModItems.MANAS_KNUCKLES.get());
+                        pOutput.accept(ModItems.MANAS_MACE.get());
+                        pOutput.accept(ModItems.MANAS_RAPIER.get());
+                        pOutput.accept(ModItems.MANAS_SCIMITAR.get());
+                        pOutput.accept(ModItems.MANAS_SICKLE.get());
+                        pOutput.accept(ModItems.MANAS_SPEAR.get());
+                        pOutput.accept(ModItems.MANAS_SWORD.get());
 
                         pOutput.accept(ModItems.ATHETITE_CLUMP.get());
                         pOutput.accept(ModItems.ETHERIUM.get());
@@ -55,6 +117,15 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ROOTED_ESSENCE_SPRAY.get());
                         pOutput.accept(ModItems.SMOKE_BOMB.get());
                         pOutput.accept(ModItems.SPEED_POTION.get());
+
+                        pOutput.accept(ModItems.FELLO_COIN_NUGGET.get());
+                        pOutput.accept(ModItems.FELLO_COIN.get());
+                        pOutput.accept(ModItems.NINETEEN_EIGHTY_FOUR.get());
+                        pOutput.accept(ModItems.MUSIC_DISC_RECLAIMED.get());
+                        pOutput.accept(ModItems.ROZIE_HORN.get());
+                        pOutput.accept(ModItems.REINFORCED_STICK.get());
+                        pOutput.accept(ModItems.BASIC_STEEL_INGOT.get());
+
 
                         pOutput.accept(ModItems.PURE_WATER_BUCKET.get());
                         pOutput.accept(ModItems.VOID_LIQUID_BUCKET.get());
@@ -106,7 +177,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.GRIMWOOD_WALL.get());
                         pOutput.accept(ModBlocks.GRIMWOOD_DOOR.get());
                         pOutput.accept(ModBlocks.GRIMWOOD_TRAPDOOR.get());
-                        pOutput.accept(ModBlocks.GRIMWOOD_SIGN.get());
+                        //pOutput.accept(ModBlocks.GRIMWOOD_SIGN.get());
 
                         pOutput.accept(ModBlocks.BOGBIRCH_LOG.get());
                         pOutput.accept(ModBlocks.BOGBIRCH_WOOD.get());
@@ -124,7 +195,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.BOGBIRCH_WALL.get());
                         pOutput.accept(ModBlocks.BOGBIRCH_DOOR.get());
                         pOutput.accept(ModBlocks.BOGBIRCH_TRAPDOOR.get());
-                        pOutput.accept(ModBlocks.BOGBIRCH_SIGN.get());
+                        //pOutput.accept(ModBlocks.BOGBIRCH_SIGN.get());
 
                         pOutput.accept(ModBlocks.POPLAR_LOG.get());
                         pOutput.accept(ModBlocks.POPLAR_WOOD.get());
@@ -142,7 +213,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.POPLAR_WALL.get());
                         pOutput.accept(ModBlocks.POPLAR_DOOR.get());
                         pOutput.accept(ModBlocks.POPLAR_TRAPDOOR.get());
-                        pOutput.accept(ModBlocks.POPLAR_SIGN.get());
+                        //pOutput.accept(ModBlocks.POPLAR_SIGN.get());
 
                         pOutput.accept(ModBlocks.MURIAR_LOG.get());
                         pOutput.accept(ModBlocks.MURIAR_WOOD.get());
@@ -159,7 +230,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.MURIAR_WALL.get());
                         pOutput.accept(ModBlocks.MURIAR_DOOR.get());
                         pOutput.accept(ModBlocks.MURIAR_TRAPDOOR.get());
-                        pOutput.accept(ModBlocks.MURIAR_SIGN.get());
+                        //pOutput.accept(ModBlocks.MURIAR_SIGN.get());
 
                         pOutput.accept(ModBlocks.WEATHERED_SPRUCE_LOG.get());
                         pOutput.accept(ModBlocks.WEATHERED_SPRUCE_WOOD.get());
@@ -173,7 +244,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.WEATHERED_SPRUCE_WALL.get());
                         pOutput.accept(ModBlocks.WEATHERED_SPRUCE_DOOR.get());
                         pOutput.accept(ModBlocks.WEATHERED_SPRUCE_TRAPDOOR.get());
-                        pOutput.accept(ModBlocks.WEATHERED_SPRUCE_SIGN.get());
+                        //pOutput.accept(ModBlocks.WEATHERED_SPRUCE_SIGN.get());
 
                         pOutput.accept(ModBlocks.AMETHYST_CHISELED_STONE_BRICKS.get());
                         pOutput.accept(ModBlocks.AMETHYST_GILDED_DEEPSLATE_BRICKS.get());
@@ -232,12 +303,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.ANDESITE_BRICKS_HEAVY.get());
                         pOutput.accept(ModBlocks.GREEN_BRICKS.get());
 
-                        pOutput.accept(ModBlocks.PHYLLITE_BRICK_BOOKSHELF.get());
-                        pOutput.accept(ModBlocks.EMPTY_PHYLLITE_BRICK_BOOKSHELF.get());
-                        pOutput.accept(ModBlocks.SANDSTONE_BOOKSHELF.get());
-                        pOutput.accept(ModBlocks.EMPTY_SANDSTONE_BOOKSHELF.get());
-                        pOutput.accept(ModBlocks.STONE_BRICK_BOOKSHELF.get());
-                        pOutput.accept(ModBlocks.EMPTY_STONE_BRICK_BOOKSHELF.get());
+                        //pOutput.accept(ModBlocks.PHYLLITE_BRICK_BOOKSHELF.get());
+                        //pOutput.accept(ModBlocks.EMPTY_PHYLLITE_BRICK_BOOKSHELF.get());
+                        //pOutput.accept(ModBlocks.SANDSTONE_BOOKSHELF.get());
+                        //pOutput.accept(ModBlocks.EMPTY_SANDSTONE_BOOKSHELF.get());
+                        //pOutput.accept(ModBlocks.STONE_BRICK_BOOKSHELF.get());
+                        //pOutput.accept(ModBlocks.EMPTY_STONE_BRICK_BOOKSHELF.get());
 
                         pOutput.accept(ModBlocks.CRAMP_ATHETITE_ORE.get());
                         pOutput.accept(ModBlocks.CRAMP_ETHERIUM_ORE.get());

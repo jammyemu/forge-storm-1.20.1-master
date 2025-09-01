@@ -198,11 +198,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> GRIMWOOD_TRAPDOOR = registerBlock("grimwood_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_TRAPDOOR), BlockSetType.SPRUCE));
 
-    public static final RegistryObject<Block> GRIMWOOD_SIGN = registerBlockNoItem("grimwood_sign",
+    public static final RegistryObject<Block> GRIMWOOD_SIGN = BLOCKS.register("grimwood_sign",
             () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), ModWoodTypes.GRIMWOOD));
     public static final RegistryObject<Block> GRIMWOOD_WALL_SIGN = BLOCKS.register("grimwood_wall_sign",
             () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), ModWoodTypes.GRIMWOOD));
-
 
 
     public static final RegistryObject<Block> BOGBIRCH_LOG = registerBlock("bogbirch_log",
@@ -264,7 +263,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> BOGBIRCH_TRAPDOOR = registerBlock("bogbirch_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_TRAPDOOR), BlockSetType.SPRUCE));
 
-    public static final RegistryObject<Block> BOGBIRCH_SIGN = registerBlockNoItem("bogbirch_sign",
+    public static final RegistryObject<Block> BOGBIRCH_SIGN = BLOCKS.register("bogbirch_sign",
             () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_SIGN), ModWoodTypes.BOGBIRCH));
     public static final RegistryObject<Block> BOGBIRCH_WALL_SIGN = BLOCKS.register("bogbirch_wall_sign",
             () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), ModWoodTypes.BOGBIRCH));
@@ -330,7 +329,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> POPLAR_TRAPDOOR = registerBlock("poplar_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_TRAPDOOR), BlockSetType.SPRUCE));
 
-    public static final RegistryObject<Block> POPLAR_SIGN = registerBlockNoItem("poplar_sign",
+    public static final RegistryObject<Block> POPLAR_SIGN = BLOCKS.register("poplar_sign",
             () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_SIGN), ModWoodTypes.POPLAR));
     public static final RegistryObject<Block> POPLAR_WALL_SIGN = BLOCKS.register("poplar_wall_sign",
             () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), ModWoodTypes.POPLAR));
@@ -395,7 +394,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> MURIAR_TRAPDOOR = registerBlock("muriar_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_TRAPDOOR), BlockSetType.SPRUCE));
 
-    public static final RegistryObject<Block> MURIAR_SIGN = registerBlockNoItem("muriar_sign",
+    public static final RegistryObject<Block> MURIAR_SIGN = BLOCKS.register("muriar_sign",
             () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_SIGN), ModWoodTypes.MURIAR));
     public static final RegistryObject<Block> MURIAR_WALL_SIGN = BLOCKS.register("muriar_wall_sign",
             () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), ModWoodTypes.MURIAR));
@@ -440,7 +439,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> WEATHERED_SPRUCE_TRAPDOOR = registerBlock("weathered_spruce_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_TRAPDOOR), BlockSetType.SPRUCE));
 
-    public static final RegistryObject<Block> WEATHERED_SPRUCE_SIGN = registerBlockNoItem("weathered_spruce_sign",
+    public static final RegistryObject<Block> WEATHERED_SPRUCE_SIGN = BLOCKS.register("weathered_spruce_sign",
             () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_SIGN), ModWoodTypes.WEATHERED_SPRUCE));
     public static final RegistryObject<Block> WEATHERED_SPRUCE_WALL_SIGN = BLOCKS.register("weathered_spruce_wall_sign",
             () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), ModWoodTypes.WEATHERED_SPRUCE));
@@ -511,17 +510,17 @@ public class ModBlocks {
             () -> new CrampFernBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollission().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ).ignitedByLava().pushReaction(PushReaction.DESTROY)));
 
     public static final RegistryObject<Block> PHYLLITE_BRICK_BOOKSHELF = registerBlock("phyllite_brick_bookshelf",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
     public static final RegistryObject<Block> EMPTY_PHYLLITE_BRICK_BOOKSHELF = registerBlock("empty_phyllite_brick_bookshelf",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
     public static final RegistryObject<Block> SANDSTONE_BOOKSHELF = registerBlock("sandstone_bookshelf",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
     public static final RegistryObject<Block> EMPTY_SANDSTONE_BOOKSHELF = registerBlock("empty_sandstone_bookshelf",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
     public static final RegistryObject<Block> STONE_BRICK_BOOKSHELF = registerBlock("stone_brick_bookshelf",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
     public static final RegistryObject<Block> EMPTY_STONE_BRICK_BOOKSHELF = registerBlock("empty_stone_brick_bookshelf",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
     public static final RegistryObject<Block> AMETHYST_CHISELED_STONE_BRICKS = registerBlock("amethyst_chiseled_stone_bricks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
