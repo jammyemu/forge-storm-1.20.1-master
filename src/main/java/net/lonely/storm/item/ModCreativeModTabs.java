@@ -177,7 +177,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.GRIMWOOD_WALL.get());
                         pOutput.accept(ModBlocks.GRIMWOOD_DOOR.get());
                         pOutput.accept(ModBlocks.GRIMWOOD_TRAPDOOR.get());
-                        //pOutput.accept(ModBlocks.GRIMWOOD_SIGN.get());
+                        pOutput.accept(ModBlocks.GRIMWOOD_SIGN.get());
 
                         pOutput.accept(ModBlocks.BOGBIRCH_LOG.get());
                         pOutput.accept(ModBlocks.BOGBIRCH_WOOD.get());
@@ -195,7 +195,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.BOGBIRCH_WALL.get());
                         pOutput.accept(ModBlocks.BOGBIRCH_DOOR.get());
                         pOutput.accept(ModBlocks.BOGBIRCH_TRAPDOOR.get());
-                        //pOutput.accept(ModBlocks.BOGBIRCH_SIGN.get());
+                        pOutput.accept(ModBlocks.BOGBIRCH_SIGN.get());
 
                         pOutput.accept(ModBlocks.POPLAR_LOG.get());
                         pOutput.accept(ModBlocks.POPLAR_WOOD.get());
@@ -213,7 +213,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.POPLAR_WALL.get());
                         pOutput.accept(ModBlocks.POPLAR_DOOR.get());
                         pOutput.accept(ModBlocks.POPLAR_TRAPDOOR.get());
-                        //pOutput.accept(ModBlocks.POPLAR_SIGN.get());
+                        pOutput.accept(ModBlocks.POPLAR_SIGN.get());
 
                         pOutput.accept(ModBlocks.MURIAR_LOG.get());
                         pOutput.accept(ModBlocks.MURIAR_WOOD.get());
@@ -230,7 +230,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.MURIAR_WALL.get());
                         pOutput.accept(ModBlocks.MURIAR_DOOR.get());
                         pOutput.accept(ModBlocks.MURIAR_TRAPDOOR.get());
-                        //pOutput.accept(ModBlocks.MURIAR_SIGN.get());
+                        pOutput.accept(ModBlocks.MURIAR_SIGN.get());
 
                         pOutput.accept(ModBlocks.WEATHERED_SPRUCE_LOG.get());
                         pOutput.accept(ModBlocks.WEATHERED_SPRUCE_WOOD.get());
@@ -244,7 +244,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.WEATHERED_SPRUCE_WALL.get());
                         pOutput.accept(ModBlocks.WEATHERED_SPRUCE_DOOR.get());
                         pOutput.accept(ModBlocks.WEATHERED_SPRUCE_TRAPDOOR.get());
-                        //pOutput.accept(ModBlocks.WEATHERED_SPRUCE_SIGN.get());
+                        pOutput.accept(ModBlocks.WEATHERED_SPRUCE_SIGN.get());
 
                         pOutput.accept(ModBlocks.AMETHYST_CHISELED_STONE_BRICKS.get());
                         pOutput.accept(ModBlocks.AMETHYST_GILDED_DEEPSLATE_BRICKS.get());
@@ -303,12 +303,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.ANDESITE_BRICKS_HEAVY.get());
                         pOutput.accept(ModBlocks.GREEN_BRICKS.get());
 
-                        //pOutput.accept(ModBlocks.PHYLLITE_BRICK_BOOKSHELF.get());
-                        //pOutput.accept(ModBlocks.EMPTY_PHYLLITE_BRICK_BOOKSHELF.get());
-                        //pOutput.accept(ModBlocks.SANDSTONE_BOOKSHELF.get());
-                        //pOutput.accept(ModBlocks.EMPTY_SANDSTONE_BOOKSHELF.get());
-                        //pOutput.accept(ModBlocks.STONE_BRICK_BOOKSHELF.get());
-                        //pOutput.accept(ModBlocks.EMPTY_STONE_BRICK_BOOKSHELF.get());
+                        pOutput.accept(ModBlocks.PHYLLITE_BRICK_BOOKSHELF.get());
+                        pOutput.accept(ModBlocks.EMPTY_PHYLLITE_BRICK_BOOKSHELF.get());
+                        pOutput.accept(ModBlocks.SANDSTONE_BOOKSHELF.get());
+                        pOutput.accept(ModBlocks.EMPTY_SANDSTONE_BOOKSHELF.get());
+                        pOutput.accept(ModBlocks.STONE_BRICK_BOOKSHELF.get());
+                        pOutput.accept(ModBlocks.EMPTY_STONE_BRICK_BOOKSHELF.get());
 
                         pOutput.accept(ModBlocks.CRAMP_ATHETITE_ORE.get());
                         pOutput.accept(ModBlocks.CRAMP_ETHERIUM_ORE.get());
