@@ -1,4 +1,4 @@
-// 1.20.1	2025-09-01T16:27:15.2685828	Item Models: storm
+// 1.20.1	2025-09-25T18:58:52.0363456	Item Models: storm
 d6440d44a5f6fa84ac3203aeea7a86d1bbefad4d assets/storm/models/item/abyssal_sword.json
 86c95459dbc72da9e6f45dadf2dc55bcdda7c55c assets/storm/models/item/adrenaline_syringe.json
 e4ea6737405c885f2f9b8c0e3d30ca9046bc8839 assets/storm/models/item/alchemizing_station.json
@@ -41,6 +41,14 @@ dd84a3df519dd3f873e9c13ec1144228c57b65ba assets/storm/models/item/florium.json
 11a4dba0664174f7632030eae679b453e7d3d0a4 assets/storm/models/item/frill_sword.json
 575b0419e40794e668f38bba635b11723ca57cd3 assets/storm/models/item/frozen_sword.json
 5a255716d11316d83e749ab15257fa0f39908a0b assets/storm/models/item/geolium.json
+9cbd9e2fca7872464adabcde01bde09ae6621a78 assets/storm/models/item/gilded_claws.json
+6ca3ad49821b20f8ae91122ac756cf1bd72b520f assets/storm/models/item/gilded_dagger.json
+4d8b295fbf1aad744ebdf9650a515d794703d915 assets/storm/models/item/gilded_greatsword.json
+ea18ee68415c8dd3ba5683da642ab2ab3ac399ed assets/storm/models/item/gilded_halberd.json
+1c6944f80d7ace56af06846b02c79ed9332f1db6 assets/storm/models/item/gilded_hammer.json
+ee04d6d0ad28bd34667ad6c1e515a585ea7acd10 assets/storm/models/item/gilded_mace.json
+68935544d0fbaa726b28fe07bc9fef1aaac2cae9 assets/storm/models/item/gilded_rapier.json
+5de1c08bdf4e7bc13e5306d95d9dfe5c7f8049ff assets/storm/models/item/gilded_sickle.json
 1a68bee9a85fe7d53bd083767177a6b6ff375955 assets/storm/models/item/gilded_sword.json
 5e725b90bbad3538aac45d945ed4506513f71ac2 assets/storm/models/item/gold_key.json
 763290dc8d1692c63856d0da91f92c9770d468dc assets/storm/models/item/green_sword.json
@@ -51,14 +59,21 @@ fdc09dc332b169498aa926abab4d761ffefa0f4f assets/storm/models/item/grimwood_door.
 ddfc62fe628f660f7f9d473d5f0f97ebf02b460e assets/storm/models/item/grimwood_sign.json
 3364af44608a74355b664ac4998e96e4f8034dd1 assets/storm/models/item/grimwood_wall.json
 4f1d3179cea2c54b35f679573a58a27a8854e3d8 assets/storm/models/item/health_potion.json
+01271580ff25ec56aa22614a36d54630cc52525e assets/storm/models/item/heavy_crossbow.json
 ccbc21c0f2c4ed165768d1bb81eae67b7515b179 assets/storm/models/item/hybrid_axe.json
 07cb32cf2d19a5743fbc9d9b2a2b556f823e8c4f assets/storm/models/item/ice_essence.json
 7ae771bb31a8015150bcf2ca95f0b7ba9d62f5df assets/storm/models/item/ice_essence_spray.json
 a17dc46c58518c81bb4ce2e2f1d75a726aae2f8a assets/storm/models/item/illoite.json
 6957663e576b2351acf1119c3256c6825e053eaf assets/storm/models/item/khopesh.json
 1416f0ebdf87da2cb7717d35a5011caea954942d assets/storm/models/item/kroteis.json
+8e75f07e9cac0d5820036d4b1dee2b8b81d8852e assets/storm/models/item/light_crossbow.json
 0a537acf751058528b5081959b70f504672ea53e assets/storm/models/item/lime_sword.json
+a6c5ca06871ac70db75fd108b2391e4bbde668ab assets/storm/models/item/longbow.json
 4548283282d919b801d5c016728a531bfa3f8c83 assets/storm/models/item/magma_sword.json
+cae0a98e1874e2b07fa7ffd7104465b265a68029 assets/storm/models/item/manasteel_boots.json
+997d9e585d2c42ba4c64223c3793a56a8be047cb assets/storm/models/item/manasteel_chestplate.json
+f1ff76493c7ed6c320fc9740b8696c0a81091249 assets/storm/models/item/manasteel_helmet.json
+702af620caf8ed7fe1caf9bdda9d1cdec94e4c94 assets/storm/models/item/manasteel_leggings.json
 576add73b26841d93a6040327d3be5f7ad19659c assets/storm/models/item/manas_axe.json
 428775392d5f332c67f026c6b533d921d5dee806 assets/storm/models/item/manas_battlestaff.json
 db6ae9b0ea92766403057d03df0c44ce7f5d4608 assets/storm/models/item/manas_bracer.json
@@ -66,7 +81,6 @@ db6ae9b0ea92766403057d03df0c44ce7f5d4608 assets/storm/models/item/manas_bracer.j
 b4034d92fe6cd22d89b6bb2d05c8a20a4f8e005a assets/storm/models/item/manas_claymore.json
 5fae60aee18b853c194fb78c8c206a74f2da98e4 assets/storm/models/item/manas_dagger.json
 96e4c1ad4e0048cd8be8f0f171cc291ebd5b5b44 assets/storm/models/item/manas_glaive.json
-94589df9007a4d7123a5812e54058d2f69c214da assets/storm/models/item/manas_greatsword.json
 79a5292c4e31625a7ac7fec9d7e5356d8f780fc3 assets/storm/models/item/manas_halberd.json
 0135c2ebbc815fe2686129baca62340d149f5325 assets/storm/models/item/manas_hammer.json
 4ba7063ff3effb792b00a8106237675dfb3cf97f assets/storm/models/item/manas_hoe.json
@@ -112,6 +126,7 @@ f6dc3453deede87c3fd1bf10bd24e468ceb489cf assets/storm/models/item/prismarine_swo
 c08d5c69f1ef6ae50898b76d8118a885123025c1 assets/storm/models/item/purple_beam_sword.json
 726e0191febf31700d11b2d0dc19053156eb16b5 assets/storm/models/item/purple_sword.json
 2790a3db6da6f824dcfb5d9d9ad0318be5555c22 assets/storm/models/item/rainbow_gradient_sword.json
+e96a1771bddb367c0f9f6a757810bda3f251d487 assets/storm/models/item/recurve_bow.json
 dd64a8c27cd5c0e98658da5a1c8bea7ebed79177 assets/storm/models/item/red_hibiscus.json
 92bec6320021bb56b2558b7edb60cd82188c39a8 assets/storm/models/item/red_sword.json
 2f8e21addb6641008cba02c81fa94184d8ac0489 assets/storm/models/item/reinforced_stick.json

@@ -152,7 +152,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.MANAS_CLAYMORE);
         handheldItem(ModItems.MANAS_DAGGER);
         handheldItem(ModItems.MANAS_GLAIVE);
-        handheldItem(ModItems.MANAS_GREATSWORD);
+        //handheldItem(ModItems.MANAS_GREATSWORD);
         handheldItem(ModItems.MANAS_HALBERD);
         handheldItem(ModItems.MANAS_HAMMER);
         handheldItem(ModItems.MANAS_KATANA);
@@ -194,6 +194,27 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ATTACK_RING);
         simpleItem(ModItems.DEFENCE_NECKLACE);
         simpleItem(ModItems.DEFENCE_RING);
+
+        simpleItem(ModItems.MANASTEEL_HELMET);
+        simpleItem(ModItems.MANASTEEL_CHESTPLATE);
+        simpleItem(ModItems.MANASTEEL_LEGGINGS);
+        simpleItem(ModItems.MANASTEEL_BOOTS);
+
+        //simpleItem(ModItems.GILDED_BROADSWORD);
+        handheldItem(ModItems.GILDED_CLAWS);
+        handheldItem(ModItems.GILDED_DAGGER);
+        handheldItem(ModItems.GILDED_GREATSWORD);
+        handheldItem(ModItems.GILDED_HAMMER);
+        handheldItem(ModItems.GILDED_HALBERD);
+        handheldItem(ModItems.GILDED_MACE);
+        handheldItem(ModItems.GILDED_RAPIER);
+        handheldItem(ModItems.GILDED_SICKLE);
+
+        handheldItem(ModItems.HEAVY_CROSSBOW);
+        handheldItem(ModItems.LIGHT_CROSSBOW);
+        handheldItem(ModItems.LONGBOW);
+        handheldItem(ModItems.RECURVE_BOW);
+
 
     }
 

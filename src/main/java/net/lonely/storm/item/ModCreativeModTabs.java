@@ -84,6 +84,22 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.MANAS_SPEAR.get());
                         pOutput.accept(ModItems.MANAS_SWORD.get());
 
+                        pOutput.accept(ModItems.GILDED_BROADSWORD.get());
+                        pOutput.accept(ModItems.GILDED_CLAWS.get());
+                        pOutput.accept(ModItems.GILDED_DAGGER.get());
+                        pOutput.accept(ModItems.GILDED_GREATSWORD.get());
+                        pOutput.accept(ModItems.GILDED_HALBERD.get());
+                        pOutput.accept(ModItems.GILDED_HAMMER.get());
+                        pOutput.accept(ModItems.GILDED_MACE.get());
+                        pOutput.accept(ModItems.GILDED_RAPIER.get());
+                        pOutput.accept(ModItems.GILDED_SICKLE.get());
+
+                        pOutput.accept(ModItems.HEAVY_CROSSBOW.get());
+                        pOutput.accept(ModItems.LIGHT_CROSSBOW.get());
+                        pOutput.accept(ModItems.LONGBOW.get());
+                        pOutput.accept(ModItems.RECURVE_BOW.get());
+
+
                         pOutput.accept(ModItems.ATHETITE_CLUMP.get());
                         pOutput.accept(ModItems.ETHERIUM.get());
                         pOutput.accept(ModItems.FLORIUM.get());
@@ -125,6 +141,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ROZIE_HORN.get());
                         pOutput.accept(ModItems.REINFORCED_STICK.get());
                         pOutput.accept(ModItems.BASIC_STEEL_INGOT.get());
+
+                        pOutput.accept(ModItems.MANASTEEL_HELMET.get());
+                        pOutput.accept(ModItems.MANASTEEL_CHESTPLATE.get());
+                        pOutput.accept(ModItems.MANASTEEL_LEGGINGS.get());
+                        pOutput.accept(ModItems.MANASTEEL_BOOTS.get());
+
 
                         pOutput.accept(ModItems.ADRENALINE_SYRINGE.get());
                         pOutput.accept(ModItems.ANCIENT_TOME.get());

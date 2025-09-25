@@ -152,6 +152,29 @@ public class ModItems {
     public static final RegistryObject<Item> STRANGE_POUCH = ITEMS.register("strange_pouch", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UNCOVERED_POTTERY = ITEMS.register("uncovered_pottery", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> MANASTEEL_HELMET = ITEMS.register("manasteel_helmet", () -> new ArmorItem(ModArmorMaterials.MANASTEEL, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> MANASTEEL_CHESTPLATE = ITEMS.register("manasteel_chestplate", () -> new ArmorItem(ModArmorMaterials.MANASTEEL, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> MANASTEEL_LEGGINGS = ITEMS.register("manasteel_leggings", () -> new ArmorItem(ModArmorMaterials.MANASTEEL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> MANASTEEL_BOOTS = ITEMS.register("manasteel_boots", () -> new ArmorItem(ModArmorMaterials.MANASTEEL, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> GILDED_BROADSWORD = ITEMS.register("gilded_broadsword", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GILDED_CLAWS = ITEMS.register("gilded_claws", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GILDED_DAGGER = ITEMS.register("gilded_dagger", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GILDED_GREATSWORD = ITEMS.register("gilded_greatsword", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GILDED_HALBERD = ITEMS.register("gilded_halberd", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GILDED_HAMMER = ITEMS.register("gilded_hammer", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GILDED_MACE = ITEMS.register("gilded_mace", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GILDED_RAPIER = ITEMS.register("gilded_rapier", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GILDED_SICKLE = ITEMS.register("gilded_sickle", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> HEAVY_CROSSBOW = ITEMS.register("heavy_crossbow", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LIGHT_CROSSBOW = ITEMS.register("light_crossbow", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LONGBOW = ITEMS.register("longbow", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RECURVE_BOW = ITEMS.register("recurve_bow", () -> new Item(new Item.Properties()));
+
+
+
+
 
     public static final RegistryObject<Item> SWAMP_LOAF = ITEMS.register("swamp_loaf", () -> new Item(new Item.Properties().food(ModFoods.SWAMP_LOAF)));
 

@@ -15,6 +15,7 @@ import net.lonely.storm.item.ModCreativeModTabs;
 import net.lonely.storm.item.ModItems;
 //import net.lonely.storm.worldgen.biome.ModTerraBlenderAPI;
 //import net.lonely.storm.worldgen.biome.surface.ModSurfaceRules;
+import net.lonely.storm.loot.ModLootModifiers;
 import net.lonely.storm.particles.ModParticles;
 import net.lonely.storm.recipes.ModRecipes;
 import net.lonely.storm.screen.AlchemizingStationScreen;
@@ -70,6 +71,8 @@ public class StormMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModEntities.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
