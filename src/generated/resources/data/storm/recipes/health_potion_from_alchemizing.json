@@ -1,0 +1,11 @@
+{
+  "type": "storm:alchemizing",
+  "ingredients": [
+    {
+      "item": "storm:strangers_diamond"
+    }
+  ],
+  "output": {
+    "item": "storm:health_potion"
+  }
+}

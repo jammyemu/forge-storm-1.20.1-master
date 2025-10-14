@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "storm:block/empty_stone_brick_bookshelf_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "storm:block/empty_stone_brick_bookshelf"
+    },
+    "axis=z": {
+      "model": "storm:block/empty_stone_brick_bookshelf_horizontal",
+      "x": 90
+    }
+  }
+}

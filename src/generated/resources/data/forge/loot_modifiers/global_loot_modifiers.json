@@ -1,0 +1,10 @@
+{
+  "entries": [
+    "storm:basic_steel_ingot_from_simple_dungeon",
+    "storm:basic_steel_ingot_from_underwater_ruin_small",
+    "storm:rooted_ginger_from_fern",
+    "storm:basic_steel_ingot_from_shipwreck_treasure",
+    "storm:rooted_ginger_from_grass"
+  ],
+  "replace": false
+}

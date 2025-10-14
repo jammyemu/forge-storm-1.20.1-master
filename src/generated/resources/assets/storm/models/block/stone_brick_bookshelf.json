@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/stone_bricks",
+    "side": "storm:block/stone_brick_bookshelf"
+  }
+}

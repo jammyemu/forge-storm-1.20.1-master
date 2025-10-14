@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "storm:item/rainbow_gradient_sword"
+  }
+}

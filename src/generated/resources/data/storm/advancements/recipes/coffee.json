@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "storm:coffee"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_thorium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "storm:thorium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_thorium",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "storm:coffee"
+    ]
+  },
+  "sends_telemetry_event": true
+}

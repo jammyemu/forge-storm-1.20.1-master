@@ -1,0 +1,7 @@
+// 1.20.1	2025-09-25T19:39:11.7047554	Global Loot Modifiers : storm
+c22b8e0706aa47b322111aa2a35942ea66a8e7dc data/forge/loot_modifiers/global_loot_modifiers.json
+68eaf84aab1e2ef929eaafec9037ca66ddac5ed5 data/storm/loot_modifiers/basic_steel_ingot_from_shipwreck_treasure.json
+308e4f8014d07ab2586a83471bb873c18f1c32f9 data/storm/loot_modifiers/basic_steel_ingot_from_simple_dungeon.json
+761ce579434819709beb4c02930446f9e9dfa0fc data/storm/loot_modifiers/basic_steel_ingot_from_underwater_ruin_small.json
+f3d8ffd72ed7dccff4c78c17db9a939422a15572 data/storm/loot_modifiers/rooted_ginger_from_fern.json
+502c7165706baef8689e1614445398c88296cda7 data/storm/loot_modifiers/rooted_ginger_from_grass.json
