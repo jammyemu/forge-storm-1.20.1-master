@@ -16,9 +16,9 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, StormMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> ITEM_TAB = CREATIVE_MODE_TABS.register("item_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.THORIUM.get()))
-                    .title(Component.translatable("creativetab.item_tab"))
+    public static final RegistryObject<CreativeModeTab> GEAR_TAB = CREATIVE_MODE_TABS.register("gear_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ABYSSAL_SWORD.get()))
+                    .title(Component.translatable("creativetab.gear_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(ModItems.ABYSSAL_SWORD.get());
@@ -60,8 +60,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ATTACK_RING.get());
                         pOutput.accept(ModItems.DEFENCE_NECKLACE.get());
                         pOutput.accept(ModItems.DEFENCE_RING.get());
+                        pOutput.accept(ModItems.HEALTH_NECKLACE.get());
 
-                        pOutput.accept(ModItems.MANAS_INGOT.get());
                         pOutput.accept(ModItems.MANAS_AXE.get());
                         pOutput.accept(ModItems.MANAS_HOE.get());
                         pOutput.accept(ModItems.MANAS_PICKAXE.get());
@@ -94,29 +94,122 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.GILDED_RAPIER.get());
                         pOutput.accept(ModItems.GILDED_SICKLE.get());
 
+                        pOutput.accept(ModItems.ANCIENT_BROADSWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_CLAWS.get());
+                        pOutput.accept(ModItems.ANCIENT_DAGGER.get());
+                        pOutput.accept(ModItems.ANCIENT_GREATSWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_HALBERD.get());
+                        pOutput.accept(ModItems.ANCIENT_HAMMER.get());
+                        pOutput.accept(ModItems.ANCIENT_MACE.get());
+                        pOutput.accept(ModItems.ANCIENT_RAPIER.get());
+                        pOutput.accept(ModItems.ANCIENT_SICKLE.get());
+
+                        pOutput.accept(ModItems.BASIC_STEEL_BROADSWORD.get());
+                        pOutput.accept(ModItems.BASIC_STEEL_CLAWS.get());
+                        pOutput.accept(ModItems.BASIC_STEEL_DAGGER.get());
+                        pOutput.accept(ModItems.BASIC_STEEL_GREATSWORD.get());
+                        pOutput.accept(ModItems.BASIC_STEEL_HALBERD.get());
+                        pOutput.accept(ModItems.BASIC_STEEL_HAMMER.get());
+                        pOutput.accept(ModItems.BASIC_STEEL_MACE.get());
+                        pOutput.accept(ModItems.BASIC_STEEL_RAPIER.get());
+                        pOutput.accept(ModItems.BASIC_STEEL_SICKLE.get());
+
                         pOutput.accept(ModItems.HEAVY_CROSSBOW.get());
                         pOutput.accept(ModItems.LIGHT_CROSSBOW.get());
                         pOutput.accept(ModItems.LONGBOW.get());
                         pOutput.accept(ModItems.RECURVE_BOW.get());
 
+                        pOutput.accept(ModItems.MANASTEEL_HELMET.get());
+                        pOutput.accept(ModItems.MANASTEEL_CHESTPLATE.get());
+                        pOutput.accept(ModItems.MANASTEEL_LEGGINGS.get());
+                        pOutput.accept(ModItems.MANASTEEL_BOOTS.get());
 
-                        pOutput.accept(ModItems.ATHETITE_CLUMP.get());
-                        pOutput.accept(ModItems.ETHERIUM.get());
-                        pOutput.accept(ModItems.FLORIUM.get());
-                        pOutput.accept(ModItems.GEOLIUM.get());
-                        pOutput.accept(ModItems.ILLOITE.get());
-                        pOutput.accept(ModItems.KROTEIS.get());
-                        pOutput.accept(ModItems.ORIBIUM.get());
-                        pOutput.accept(ModItems.PHOENITE.get());
-                        pOutput.accept(ModItems.RIDONEITE.get());
-                        pOutput.accept(ModItems.STARMEAR.get());
-                        pOutput.accept(ModItems.STRANGERS_DIAMOND.get());
-                        pOutput.accept(ModItems.THE_LOST.get());
-                        pOutput.accept(ModItems.THORIUM.get());
-                        pOutput.accept(ModItems.CRYSTAL_SKELETON_SPAWN_EGG.get());
-                        pOutput.accept(ModItems.CRAMP_CRAB_SPAWN_EGG.get());
+                        pOutput.accept(ModItems.BLACK_1_HELMET.get());
+                        pOutput.accept(ModItems.BLACK_1_CHESTPLATE.get());
+                        pOutput.accept(ModItems.BLACK_1_LEGGINGS.get());
+                        pOutput.accept(ModItems.BLACK_1_BOOTS.get());
 
+                        pOutput.accept(ModItems.BLUE_1_HELMET.get());
+                        pOutput.accept(ModItems.BLUE_1_CHESTPLATE.get());
+                        pOutput.accept(ModItems.BLUE_1_LEGGINGS.get());
+                        pOutput.accept(ModItems.BLUE_1_BOOTS.get());
 
+                        pOutput.accept(ModItems.BLUE_2_HELMET.get());
+                        pOutput.accept(ModItems.BLUE_2_CHESTPLATE.get());
+                        pOutput.accept(ModItems.BLUE_2_LEGGINGS.get());
+                        pOutput.accept(ModItems.BLUE_2_BOOTS.get());
+
+                        pOutput.accept(ModItems.GREEN_1_HELMET.get());
+                        pOutput.accept(ModItems.GREEN_1_CHESTPLATE.get());
+                        pOutput.accept(ModItems.GREEN_1_LEGGINGS.get());
+                        pOutput.accept(ModItems.GREEN_1_BOOTS.get());
+
+                        pOutput.accept(ModItems.GREEN_2_HELMET.get());
+                        pOutput.accept(ModItems.GREEN_2_CHESTPLATE.get());
+                        pOutput.accept(ModItems.GREEN_2_LEGGINGS.get());
+                        pOutput.accept(ModItems.GREEN_2_BOOTS.get());
+
+                        pOutput.accept(ModItems.GREY_1_HELMET.get());
+                        pOutput.accept(ModItems.GREY_1_CHESTPLATE.get());
+                        pOutput.accept(ModItems.GREY_1_LEGGINGS.get());
+                        pOutput.accept(ModItems.GREY_1_BOOTS.get());
+
+                        pOutput.accept(ModItems.ORANGE_1_HELMET.get());
+                        pOutput.accept(ModItems.ORANGE_1_CHESTPLATE.get());
+                        pOutput.accept(ModItems.ORANGE_1_LEGGINGS.get());
+                        pOutput.accept(ModItems.ORANGE_1_BOOTS.get());
+
+                        pOutput.accept(ModItems.ORANGE_2_HELMET.get());
+                        pOutput.accept(ModItems.ORANGE_2_CHESTPLATE.get());
+                        pOutput.accept(ModItems.ORANGE_2_LEGGINGS.get());
+                        pOutput.accept(ModItems.ORANGE_2_BOOTS.get());
+
+                        pOutput.accept(ModItems.PINK_1_HELMET.get());
+                        pOutput.accept(ModItems.PINK_1_CHESTPLATE.get());
+                        pOutput.accept(ModItems.PINK_1_LEGGINGS.get());
+                        pOutput.accept(ModItems.PINK_1_BOOTS.get());
+
+                        pOutput.accept(ModItems.PINK_2_HELMET.get());
+                        pOutput.accept(ModItems.PINK_2_CHESTPLATE.get());
+                        pOutput.accept(ModItems.PINK_2_LEGGINGS.get());
+                        pOutput.accept(ModItems.PINK_2_BOOTS.get());
+
+                        pOutput.accept(ModItems.PURPLE_1_HELMET.get());
+                        pOutput.accept(ModItems.PURPLE_1_CHESTPLATE.get());
+                        pOutput.accept(ModItems.PURPLE_1_LEGGINGS.get());
+                        pOutput.accept(ModItems.PURPLE_1_BOOTS.get());
+
+                        pOutput.accept(ModItems.PURPLE_2_HELMET.get());
+                        pOutput.accept(ModItems.PURPLE_2_CHESTPLATE.get());
+                        pOutput.accept(ModItems.PURPLE_2_LEGGINGS.get());
+                        pOutput.accept(ModItems.PURPLE_2_BOOTS.get());
+
+                        pOutput.accept(ModItems.RED_1_HELMET.get());
+                        pOutput.accept(ModItems.RED_1_CHESTPLATE.get());
+                        pOutput.accept(ModItems.RED_1_LEGGINGS.get());
+                        pOutput.accept(ModItems.RED_1_BOOTS.get());
+
+                        pOutput.accept(ModItems.RED_2_HELMET.get());
+                        pOutput.accept(ModItems.RED_2_CHESTPLATE.get());
+                        pOutput.accept(ModItems.RED_2_LEGGINGS.get());
+                        pOutput.accept(ModItems.RED_2_BOOTS.get());
+
+                        pOutput.accept(ModItems.WHITE_1_HELMET.get());
+                        pOutput.accept(ModItems.WHITE_1_CHESTPLATE.get());
+                        pOutput.accept(ModItems.WHITE_1_LEGGINGS.get());
+                        pOutput.accept(ModItems.WHITE_1_BOOTS.get());
+
+                        pOutput.accept(ModItems.YELLOW_1_HELMET.get());
+                        pOutput.accept(ModItems.YELLOW_1_CHESTPLATE.get());
+                        pOutput.accept(ModItems.YELLOW_1_LEGGINGS.get());
+                        pOutput.accept(ModItems.YELLOW_1_BOOTS.get());
+
+                        pOutput.accept(ModItems.YELLOW_2_HELMET.get());
+                        pOutput.accept(ModItems.YELLOW_2_CHESTPLATE.get());
+                        pOutput.accept(ModItems.YELLOW_2_LEGGINGS.get());
+                        pOutput.accept(ModItems.YELLOW_2_BOOTS.get());
+
+                        pOutput.accept(ModItems.ADRENALINE_SYRINGE.get());
                         pOutput.accept(ModItems.ANTIDOTE.get());
                         pOutput.accept(ModItems.BURN_SALVE.get());
                         pOutput.accept(ModItems.COFFEE.get());
@@ -133,23 +226,50 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ROOTED_ESSENCE_SPRAY.get());
                         pOutput.accept(ModItems.SMOKE_BOMB.get());
                         pOutput.accept(ModItems.SPEED_POTION.get());
+                        pOutput.accept(ModItems.FLASHBANG.get());
+                        pOutput.accept(ModItems.WORLD_ANCHOR.get());
+
+
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> ITEM_TAB = CREATIVE_MODE_TABS.register("item_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.THORIUM.get()))
+                    .title(Component.translatable("creativetab.item_tab"))
+                    .displayItems((pParameters, pOutput) -> {
+
+
+                        pOutput.accept(ModItems.MANAS_INGOT.get());
+                        pOutput.accept(ModItems.ATHETITE_CLUMP.get());
+                        pOutput.accept(ModItems.ETHERIUM.get());
+                        pOutput.accept(ModItems.FLORIUM.get());
+                        pOutput.accept(ModItems.GEOLIUM.get());
+                        pOutput.accept(ModItems.ILLOITE.get());
+                        pOutput.accept(ModItems.KROTEIS.get());
+                        pOutput.accept(ModItems.ORIBIUM.get());
+                        pOutput.accept(ModItems.PHOENITE.get());
+                        pOutput.accept(ModItems.RIDONEITE.get());
+                        pOutput.accept(ModItems.STARMEAR.get());
+                        pOutput.accept(ModItems.STRANGERS_DIAMOND.get());
+                        pOutput.accept(ModItems.THE_LOST.get());
+                        pOutput.accept(ModItems.THORIUM.get());
+                        pOutput.accept(ModItems.CRYSTAL_SKELETON_SPAWN_EGG.get());
+                        pOutput.accept(ModItems.CRAMP_CRAB_SPAWN_EGG.get());
 
                         pOutput.accept(ModItems.FELLO_COIN_NUGGET.get());
                         pOutput.accept(ModItems.FELLO_COIN.get());
+                        pOutput.accept(ModItems.FELLO_SUNGLASSES.get());
                         pOutput.accept(ModItems.NINETEEN_EIGHTY_FOUR.get());
                         pOutput.accept(ModItems.MUSIC_DISC_RECLAIMED.get());
                         pOutput.accept(ModItems.ROZIE_HORN.get());
                         pOutput.accept(ModItems.REINFORCED_STICK.get());
                         pOutput.accept(ModItems.BASIC_STEEL_INGOT.get());
 
-                        pOutput.accept(ModItems.MANASTEEL_HELMET.get());
-                        pOutput.accept(ModItems.MANASTEEL_CHESTPLATE.get());
-                        pOutput.accept(ModItems.MANASTEEL_LEGGINGS.get());
-                        pOutput.accept(ModItems.MANASTEEL_BOOTS.get());
-
-
-                        pOutput.accept(ModItems.ADRENALINE_SYRINGE.get());
                         pOutput.accept(ModItems.ANCIENT_TOME.get());
+                        pOutput.accept(ModItems.PROPHECY_BOOK.get());
+                        pOutput.accept(ModItems.LORE_BOOK.get());
+                        pOutput.accept(ModItems.RITE_BOOK.get());
+
                         pOutput.accept(ModItems.DARK_SCALE.get());
                         pOutput.accept(ModItems.GOLD_KEY.get());
                         pOutput.accept(ModItems.OLD_CHALICE.get());
@@ -159,7 +279,6 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.SILVER_KEY.get());
                         pOutput.accept(ModItems.STRANGE_POUCH.get());
                         pOutput.accept(ModItems.UNCOVERED_POTTERY.get());
-
 
                         pOutput.accept(ModItems.PURE_WATER_BUCKET.get());
                         pOutput.accept(ModItems.VOID_LIQUID_BUCKET.get());

@@ -1,0 +1,1663 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 15.0,
+      "bonus_rolls": 7.0,
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "type": "uniform",
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "cooked_beef",
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "cooked_beef",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "cooked_beef",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "carrot",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "egg",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "bucket",
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "feather",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "feather",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "feather",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "flint",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "flint",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "flint",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "string",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "string",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "string",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "raw_iron",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "raw_iron",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "raw_iron",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "raw_iron",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "raw_iron",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "leather_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "leather_boots",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "storm:popper",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Popper",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Consumable)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "-2 DEF on target.",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Lasts 1 turn. Does not stack.",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Range: 2 blocks",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+
+              ]
+            }
+          ],
+          "weight": 19
+        },
+        {
+          "type": "item",
+          "name": "storm:flashbang",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Flashbang",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Consumable)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "-3 DEF to all players inside an area.",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Range: 1-10 blocks",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "AoE: 3x3 blocks (origin:middle block)",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "DEF debuff: 1 turn",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 18
+        },
+        {
+          "type": "item",
+          "name": "arrow",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Arrow",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Consumable Ammo)",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+1 DMG",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Stacks up to 5 in a single slot.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 17
+        },
+        {
+          "type": "item",
+          "name": "arrow",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Arrow",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Consumable Ammo)",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+1 DMG",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Stacks up to 5 in a single slot.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 17
+        },
+        {
+          "type": "item",
+          "name": "arrow",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Arrow",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Consumable Ammo)",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+1 DMG",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Stacks up to 5 in a single slot.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 17
+        },
+        {
+          "type": "item",
+          "name": "arrow",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Arrow",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Consumable Ammo)",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+1 DMG",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Stacks up to 5 in a single slot.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 17
+        },
+        {
+          "type": "item",
+          "name": "arrow",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Arrow",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Consumable Ammo)",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+1 DMG",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Stacks up to 5 in a single slot.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 17
+        },
+        {
+          "type": "item",
+          "name": "storm:coffee",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Coffee",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Consumable)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+1 Action Slot",
+                  "color": "dark_aqua",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 16
+        },
+        {
+          "type": "item",
+          "name": "storm:adrenaline_syringe",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Adrenaline",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Consumable)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Advantage on your next ATK or DEF roll.",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "User must specify which roll this will be applied to immediately upon consumption.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "storm:pocket_sand",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Pocket Sand",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Consumable)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "-2 ATK on target.",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Lasts 1 turn. Does not stack.",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "Range: 2 blocks",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 14
+        },
+        {
+          "type": "item",
+          "name": "storm:attack_ring",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "ATK Ring",
+                "color": "dark_green",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Small Accessory)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+
+                {
+                  "text": "+1 ATK",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "When equipped in both ring slots, receive +1 DMG to attacks.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "This effect does not stack on two Light Weapons.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "storm:speed_potion",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "MOV Potion",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Consumable)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "x3 MOV",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Affects user's next Move action.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "Does not stack.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "storm:ancient_broadsword",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ruined Broadsword",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Medium Weapon)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+3 DMG",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Medium Ability",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "On a successful attack, deal an extra 1D3 DMG.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Medium abilities do not constitute an extra Action.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "storm:ancient_claws",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ruined Claws",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Light Weapon)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+2 DMG",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "-1 ATK",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Light Ability",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "On a successful individual attack roll, user receives a +1 to ATK and a -1 to DEF.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "This effect stacks until the user misses an attack.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "On miss, all buff and debuff stacks reset to zero.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Escape: Expend an action slot to apply a non-stackable Escape mark to a target.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "Escape mark is consumed when target attempts an Attack of Opportunity on caster, cancelling said attack.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "storm:ancient_dagger",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ruined Dagger",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Light Weapon)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+2 DMG",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "-1 ATK",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Light Ability",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "Receive a +2 ATK bonus when attacking from behind a target.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Consume an Escape mark to 'teleport' behind a target's back.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Range: 3 blocks",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Escape: Expend an action slot to apply a non-stackable Escape mark to a target.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "Escape mark is consumed when target attempts an Attack of Opportunity on caster, cancelling said attack.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "storm:ancient_greatsword",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ruined Greatsword",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Heavy Weapon)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+5 DMG",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Heavy Attack",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "Attacks all targets in front, within user's range.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "-3 DEF penalty until next turn.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "Consumes both Action Slots.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "storm:ancient_halberd",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ruined Halberd",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Heavy Weapon)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+5 DMG",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Heavy Attack",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "Ignores Armor HP. If attacking a target with no Armor HP, deal an extra +2 DMG.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "-3 DEF penalty until next turn.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "Consumes both Action Slots.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "storm:ancient_hammer",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ruined Hammer",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Heavy Weapon)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+5 DMG",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Heavy Attack",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "Deals an extra +4 DMG to a single target.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "-3 DEF penalty until next turn.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "Consumes both Action Slots.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "storm:ancient_mace",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ruined Mace",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Medium Weapon)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+3 DMG",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Medium Ability",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "On a successful attack, roll a 1d3.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "If the result is a 3, target receives a -1 Action Slot penalty on their next turn.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Medium abilities do not constitute an extra Action.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "storm:ancient_rapier",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ruined Rapier",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Medium Weapon)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+3 DMG",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Medium Ability",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "On a failed attack, receive an advantage roll.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Medium abilities do not constitute an extra Action.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "storm:ancient_sickle",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ruined Sickle",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Light Weapon)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+2 DMG",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "-1 ATK",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Light Ability",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "On a successful defense roll, user receives a single attack of opportunity.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Escape: Expend an action slot to apply a non-stackable Escape mark to a target.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "Escape mark is consumed when target attempts an Attack of Opportunity on caster, cancelling said attack.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "storm:attack_necklace",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "ATK Necklace",
+                "color": "dark_green",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Large Accessory)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+2 ATK",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "DMG Lifesteal",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "Receive +1 HP for every successful attack.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "This effect does not stack on two Light Weapons.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 8
+        },
+        {
+          "type": "item",
+          "name": "storm:grey_1_helmet",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ruined Helmet",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Armor)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+5 Armor HP ",
+                  "extra": [
+                    {
+                      "text": "(full set)",
+                      "color": "dark_gray",
+                      "italic": true
+                    }
+                  ],
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Armor HP is non-regenerating.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "Armor HP will always be targeted first when available.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "Requires full set.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "storm:grey_1_chestplate",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ruined Chestplate",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Armor)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+5 Armor HP ",
+                  "extra": [
+                    {
+                      "text": "(full set)",
+                      "color": "dark_gray",
+                      "italic": true
+                    }
+                  ],
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Armor HP is non-regenerating.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "Armor HP will always be targeted first when available.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "Requires full set.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "storm:grey_1_leggings",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ruined Leggings",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Armor)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+5 Armor HP ",
+                  "extra": [
+                    {
+                      "text": "(full set)",
+                      "color": "dark_gray",
+                      "italic": true
+                    }
+                  ],
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Armor HP is non-regenerating.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "Armor HP will always be targeted first when available.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "Requires full set.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "storm:grey_1_boots",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ruined Boots",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Armor)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+5 Armor HP ",
+                  "extra": [
+                    {
+                      "text": "(full set)",
+                      "color": "dark_gray",
+                      "italic": true
+                    }
+                  ],
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Armor HP is non-regenerating.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "Armor HP will always be targeted first when available.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "Requires full set.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "storm:defence_ring",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "DEF Ring",
+                "color": "dark_green",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Small Accessory)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+1 DEF",
+                  "color": "dark_aqua",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "storm:basic_steel_ingot",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "storm:burn_salve",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Salve",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Consumable)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Clears all stacks of the ",
+                  "extra": [
+                    {
+                      "text": "Burn",
+                      "extra": [
+                        {
+                          "text": " status effect.",
+                          "color": "dark_aqua",
+                          "italic": false
+                        }
+                      ],
+                      "color": "gold",
+                      "italic": true
+                    }
+                  ],
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Heals +1 HP for every stack cleared of Burn.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "storm:antidote",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Antidote",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Consumable)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Clears the ",
+                  "extra": [
+                    {
+                      "text": "Poison",
+                      "extra": [
+                        {
+                          "text": " status effect.",
+                          "color": "dark_aqua",
+                          "italic": false
+                        }
+                      ],
+                      "color": "gold",
+                      "italic": true
+                    }
+                  ],
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "If Poison is cleared, user receives immunity to Poison for 2 turns.",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "If Poison is cleared, user receives +1 HP.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "storm:health_potion",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Health Potion",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Consumable)",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+4 HP",
+                  "color": "dark_aqua",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "storm:defence_necklace",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "DEF Necklace",
+                "color": "dark_green",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Large Accessory)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+2 DEF",
+                  "color": "dark_aqua",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "storm:fire_essence",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "storm:rooted_essence",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "storm:ice_essence",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "storm:poison_essence",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "storm:health_necklace",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "HP Necklace",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(Large Accessory)",
+                  "color": "gray"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+6 HP",
+                  "color": "dark_aqua",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

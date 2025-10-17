@@ -245,7 +245,7 @@
   "item.storm.manas_dagger": "Manas Dagger",
   "item.storm.manas_glaive": "Manas Glaive",
   "item.storm.manas_greatsword": "Manas Greatsword",
-  "item.storm.manas_halbert": "Manas Halbert",
+  "item.storm.manas_halberd": "Manas Halberd",
   "item.storm.manas_hammer": "Manas Hammer",
   "item.storm.manas_katana": "Manas Katana",
   "item.storm.manas_knuckles": "Manas Knuckles",
@@ -272,7 +272,7 @@
   "item.storm.tems_battlestaff": "Unholy Battlestaff",
   "item.storm.tuff_sword": "Tough Sword",
   "item.storm.yellow_sword": "Illuminant Sword",
-  "item.storm.zoe_greatsword": "Heavy Greatword",
+  "item.storm.zoe_greatsword": "Heavy Greatsword",
 
   "block.storm.grimwood_pressure_plate": "Grimwood Pressure Plate",
   "block.storm.grimwood_button": "Grimwood Button",
@@ -333,6 +333,39 @@
   "block.storm.cramp_thorium_ore": "Thorium Ore",
 
   "item.storm.adrenaline_syringe": "Adrenaline",
+  "item.storm.flashbang": "Flashbang",
+  "item.storm.world_anchor": "World Anchor",
+
+  "item.storm.ancient_broadsword": "Ruined Broadsword",
+  "item.storm.ancient_claws": "Ruined Claws",
+  "item.storm.ancient_dagger": "Ruined Dagger",
+  "item.storm.ancient_greatsword": "Ruined Greatsword",
+  "item.storm.ancient_hammer": "Ruined Hammer",
+  "item.storm.ancient_halberd": "Ruined Halberd",
+  "item.storm.ancient_mace": "Ruined Mace",
+  "item.storm.ancient_rapier": "Ruined Rapier",
+  "item.storm.ancient_sickle": "Ruined Sickle",
+
+  "item.storm.basic_steel_broadsword": "Basic Steel Broadsword",
+  "item.storm.basic_steel_claws": "Basic Steel Claws",
+  "item.storm.basic_steel_dagger": "Basic Steel Dagger",
+  "item.storm.basic_steel_greatsword": "Basic Steel Greatsword",
+  "item.storm.basic_steel_hammer": "Basic Steel Hammer",
+  "item.storm.basic_steel_halberd": "Basic Steel Halberd",
+  "item.storm.basic_steel_mace": "Basic Steel Mace",
+  "item.storm.basic_steel_rapier": "Basic Steel Rapier",
+  "item.storm.basic_steel_sickle": "Basic Steel Sickle",
+
+  "item.storm.gilded_broadsword": "Gilded Broadsword",
+  "item.storm.gilded_claws": "Gilded Claws",
+  "item.storm.gilded_dagger": "Gilded Dagger",
+  "item.storm.gilded_greatsword": "Gilded Greatsword",
+  "item.storm.gilded_hammer": "Gilded Hammer",
+  "item.storm.gilded_halberd": "Gilded Halberd",
+  "item.storm.gilded_mace": "Gilded Mace",
+  "item.storm.gilded_rapier": "Gilded Rapier",
+  "item.storm.gilded_sickle": "Gilded Sickle",
+
   "item.storm.ancient_tome": "Ancient Tome",
   "item.storm.dark_scale": "Dark Scale",
   "item.storm.gold_key": "Gold Key",
@@ -344,8 +377,108 @@
   "item.storm.strange_pouch": "Strange Pouch",
   "item.storm.uncovered_pottery": "Uncovered Pottery",
 
+  "item.storm.fello_sunglasses": "Cool Sunglasses",
+  "item.storm.prophecy_book": "Prophecy Tome",
+  "item.storm.lore_book": "Lore Tome",
+  "item.storm.rite_book": "Rite Tome",
+  "item.storm.health_necklace": "Health Necklace",
+  "item.storm.heavy_crossbow": "Heavy Crossbow",
+  "item.storm.light_crossbow": "Light Crossbow",
+  "item.storm.longbow": "Longbow",
+  "item.storm.recurve_bow": "Recurve Bow",
+
+  "item.storm.manasteel_helmet": "Manasteel Helmet",
+  "item.storm.manasteel_chestplate": "Manasteel Chestplate",
+  "item.storm.manasteel_leggings": "Manasteel Leggings",
+  "item.storm.manasteel_boots": "Manasteel Boots",
+
+  "item.storm.black_1_helmet": "Dark Helmet",
+  "item.storm.black_1_chestplate": "Dark Chestplate",
+  "item.storm.black_1_leggings": "Dark Leggings",
+  "item.storm.black_1_boots": "Dark Boots",
+
+  "item.storm.blue_1_helmet": "Clouded Helmet",
+  "item.storm.blue_1_chestplate": "Clouded Chestplate",
+  "item.storm.blue_1_leggings": "Clouded Leggings",
+  "item.storm.blue_1_boots": "Clouded Boots",
+
+  "item.storm.blue_2_helmet": "Ocean Helmet",
+  "item.storm.blue_2_chestplate": "Ocean Chestplate",
+  "item.storm.blue_2_leggings": "Ocean Leggings",
+  "item.storm.blue_2_boots": "Ocean Boots",
+
+  "item.storm.green_1_helmet": "Grassy Helmet",
+  "item.storm.green_1_chestplate": "Grassy Chestplate",
+  "item.storm.green_1_leggings": "Grassy Leggings",
+  "item.storm.green_1_boots": "Grassy Boots",
+
+  "item.storm.green_2_helmet": "Mossy Helmet",
+  "item.storm.green_2_chestplate": "Mossy Chestplate",
+  "item.storm.green_2_leggings": "Mossy Leggings",
+  "item.storm.green_2_boots": "Mossy Boots",
+
+  "item.storm.grey_1_helmet": "Ruined Helmet",
+  "item.storm.grey_1_chestplate": "Ruined Chestplate",
+  "item.storm.grey_1_leggings": "Ruined Leggings",
+  "item.storm.grey_1_boots": "Ruined Boots",
+
+  "item.storm.orange_1_helmet": "Sunrise Helmet",
+  "item.storm.orange_1_chestplate": "Sunrise Chestplate",
+  "item.storm.orange_1_leggings": "Sunrise Leggings",
+  "item.storm.orange_1_boots": "Sunrise Boots",
+
+  "item.storm.orange_2_helmet": "Dulled Helmet",
+  "item.storm.orange_2_chestplate": "Dulled Chestplate",
+  "item.storm.orange_2_leggings": "Dulled Leggings",
+  "item.storm.orange_2_boots": "Dulled Boots",
+
+  "item.storm.pink_1_helmet": "Pure Helmet",
+  "item.storm.pink_1_chestplate": "Pure Chestplate",
+  "item.storm.pink_1_leggings": "Pure Leggings",
+  "item.storm.pink_1_boots": "Pure Boots",
+
+  "item.storm.pink_2_helmet": "Fleshy Helmet",
+  "item.storm.pink_2_chestplate": "Fleshy Chestplate",
+  "item.storm.pink_2_leggings": "Fleshy Leggings",
+  "item.storm.pink_2_boots": "Fleshy Boots",
+
+  "item.storm.purple_1_helmet": "Wonderful Helmet",
+  "item.storm.purple_1_chestplate": "Wonderful Chestplate",
+  "item.storm.purple_1_leggings": "Wonderful Leggings",
+  "item.storm.purple_1_boots": "Wonderful Boots",
+
+  "item.storm.purple_2_helmet": "Ender Helmet",
+  "item.storm.purple_2_chestplate": "Ender Chestplate",
+  "item.storm.purple_2_leggings": "Ender Leggings",
+  "item.storm.purple_2_boots": "Ender Boots",
+
+  "item.storm.red_1_helmet": "Rosy Helmet",
+  "item.storm.red_1_chestplate": "Rosy Chestplate",
+  "item.storm.red_1_leggings": "Rosy Leggings",
+  "item.storm.red_1_boots": "Rosy Boots",
+
+  "item.storm.red_2_helmet": "Tempered Helmet",
+  "item.storm.red_2_chestplate": "Tempered Chestplate",
+  "item.storm.red_2_leggings": "Tempered Leggings",
+  "item.storm.red_2_boots": "Tempered Boots",
+
+  "item.storm.white_1_helmet": "Snowy Helmet",
+  "item.storm.white_1_chestplate": "Snowy Chestplate",
+  "item.storm.white_1_leggings": "Snowy Leggings",
+  "item.storm.white_1_boots": "Snowy Boots",
+
+  "item.storm.yellow_1_helmet": "Holy Helmet",
+  "item.storm.yellow_1_chestplate": "Holy Chestplate",
+  "item.storm.yellow_1_leggings": "Holy Leggings",
+  "item.storm.yellow_1_boots": "Holy Boots",
+
+  "item.storm.yellow_2_helmet": "Honeyed Helmet",
+  "item.storm.yellow_2_chestplate": "Honeyed Chestplate",
+  "item.storm.yellow_2_leggings": "Honeyed Leggings",
+  "item.storm.yellow_2_boots": "Honeyed Boots",
+
   "creativetab.block_tab": "Manastorm Blocks",
   "creativetab.flora_tab": "Manastorm Flora",
-  "creativetab.item_tab": "Manastorm Items"
-
+  "creativetab.item_tab": "Manastorm Items",
+  "creativetab.gear_tab": "Manastorm Gear"
 }

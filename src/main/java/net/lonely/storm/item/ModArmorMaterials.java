@@ -14,7 +14,110 @@ import java.util.EnumMap;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
+
     MANASTEEL("manasteel", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    BLACK_1("black_1", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    BLUE_1("blue_1", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    BLUE_2("blue_2", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    GREEN_1("green_1", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    GREEN_2("green_2", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    GREY_1("grey_1", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    ORANGE_1("orange_1", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    ORANGE_2("orange_2", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    PINK_1("pink_1", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    PINK_2("pink_2", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    PURPLE_1("purple_1", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    PURPLE_2("purple_2", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    RED_1("red_1", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    RED_2("red_2", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    WHITE_1("white_1", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    YELLOW_1("yellow_1", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get())),
+    YELLOW_2("yellow_2", 24, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
         p_266655_.put(ArmorItem.Type.BOOTS, 4);
         p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
         p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
@@ -22,6 +125,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.MANAS_INGOT.get()));
 
     public static final StringRepresentable.EnumCodec<ArmorMaterials> CODEC = StringRepresentable.fromEnum(ArmorMaterials::values);
+
     private static final EnumMap<ArmorItem.Type, Integer> HEALTH_FUNCTION_FOR_TYPE = Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266653_) -> {
         p_266653_.put(ArmorItem.Type.BOOTS, 13);
         p_266653_.put(ArmorItem.Type.LEGGINGS, 15);

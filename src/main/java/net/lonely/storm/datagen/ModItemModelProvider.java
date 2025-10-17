@@ -101,6 +101,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.SHORT_CRAMPED_GRASS);
         simpleBlockItem(ModBlocks.SHORT_DARK_CRAMPED_GRASS);
 
+        simpleItem(ModItems.FLASHBANG);
         simpleItem(ModItems.ANTIDOTE);
         simpleItem(ModItems.BURN_SALVE);
         simpleItem(ModItems.COFFEE);
@@ -117,6 +118,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ROOTED_ESSENCE_SPRAY);
         simpleItem(ModItems.SMOKE_BOMB);
         simpleItem(ModItems.SPEED_POTION);
+        simpleItem(ModItems.HEALTH_NECKLACE);
+
 
 
         withExistingParent(ModItems.CRYSTAL_SKELETON_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
@@ -153,8 +156,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.MANAS_DAGGER);
         handheldItem(ModItems.MANAS_GLAIVE);
         //handheldItem(ModItems.MANAS_GREATSWORD);
-        handheldItem(ModItems.MANAS_HALBERD);
-        handheldItem(ModItems.MANAS_HAMMER);
+        //handheldItem(ModItems.MANAS_HALBERD);
+        //handheldItem(ModItems.MANAS_HAMMER);
         handheldItem(ModItems.MANAS_KATANA);
         handheldItem(ModItems.MANAS_KNUCKLES);
         handheldItem(ModItems.MANAS_MACE);
@@ -164,7 +167,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.MANAS_SPEAR);
         handheldItem(ModItems.MANAS_SWORD);
         handheldItem(ModItems.MIROS_SWORD);
-        handheldItem(ModItems.OBSIDIAN_HAMMER);
+        //handheldItem(ModItems.OBSIDIAN_HAMMER);
         handheldItem(ModItems.ORANGE_SWORD);
         handheldItem(ModItems.PARROT_SWORD);
         handheldItem(ModItems.PINK_SWORD);
@@ -177,10 +180,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.SALMON_SWORD);
         handheldItem(ModItems.SLIME_SWORD);
         handheldItem(ModItems.SWORDFISH);
-        handheldItem(ModItems.TEMS_BATTLESTAFF);
+        //handheldItem(ModItems.TEMS_BATTLESTAFF);
         handheldItem(ModItems.TUFF_SW0RD);
         handheldItem(ModItems.YELLOW_SWORD);
-        handheldItem(ModItems.ZOE_GREATSWORD);
+        //handheldItem(ModItems.ZOE_GREATSWORD);
 
         simpleItem(ModItems.BASIC_STEEL_INGOT);
         simpleItem(ModItems.FELLO_COIN_NUGGET);
@@ -200,21 +203,134 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.MANASTEEL_LEGGINGS);
         simpleItem(ModItems.MANASTEEL_BOOTS);
 
-        //simpleItem(ModItems.GILDED_BROADSWORD);
+        simpleItem(ModItems.BLACK_1_HELMET);
+        simpleItem(ModItems.BLACK_1_CHESTPLATE);
+        simpleItem(ModItems.BLACK_1_LEGGINGS);
+        simpleItem(ModItems.BLACK_1_BOOTS);
+
+        simpleItem(ModItems.BLUE_1_HELMET);
+        simpleItem(ModItems.BLUE_1_CHESTPLATE);
+        simpleItem(ModItems.BLUE_1_LEGGINGS);
+        simpleItem(ModItems.BLUE_1_BOOTS);
+
+        simpleItem(ModItems.BLUE_2_HELMET);
+        simpleItem(ModItems.BLUE_2_CHESTPLATE);
+        simpleItem(ModItems.BLUE_2_LEGGINGS);
+        simpleItem(ModItems.BLUE_2_BOOTS);
+
+        simpleItem(ModItems.GREEN_1_HELMET);
+        simpleItem(ModItems.GREEN_1_CHESTPLATE);
+        simpleItem(ModItems.GREEN_1_LEGGINGS);
+        simpleItem(ModItems.GREEN_1_BOOTS);
+
+        simpleItem(ModItems.GREEN_2_HELMET);
+        simpleItem(ModItems.GREEN_2_CHESTPLATE);
+        simpleItem(ModItems.GREEN_2_LEGGINGS);
+        simpleItem(ModItems.GREEN_2_BOOTS);
+
+        simpleItem(ModItems.GREY_1_HELMET);
+        simpleItem(ModItems.GREY_1_CHESTPLATE);
+        simpleItem(ModItems.GREY_1_LEGGINGS);
+        simpleItem(ModItems.GREY_1_BOOTS);
+
+        simpleItem(ModItems.ORANGE_1_HELMET);
+        simpleItem(ModItems.ORANGE_1_CHESTPLATE);
+        simpleItem(ModItems.ORANGE_1_LEGGINGS);
+        simpleItem(ModItems.ORANGE_1_BOOTS);
+
+        simpleItem(ModItems.ORANGE_2_HELMET);
+        simpleItem(ModItems.ORANGE_2_CHESTPLATE);
+        simpleItem(ModItems.ORANGE_2_LEGGINGS);
+        simpleItem(ModItems.ORANGE_2_BOOTS);
+
+        simpleItem(ModItems.PINK_1_HELMET);
+        simpleItem(ModItems.PINK_1_CHESTPLATE);
+        simpleItem(ModItems.PINK_1_LEGGINGS);
+        simpleItem(ModItems.PINK_1_BOOTS);
+
+        simpleItem(ModItems.PINK_2_HELMET);
+        simpleItem(ModItems.PINK_2_CHESTPLATE);
+        simpleItem(ModItems.PINK_2_LEGGINGS);
+        simpleItem(ModItems.PINK_2_BOOTS);
+
+        simpleItem(ModItems.PURPLE_1_HELMET);
+        simpleItem(ModItems.PURPLE_1_CHESTPLATE);
+        simpleItem(ModItems.PURPLE_1_LEGGINGS);
+        simpleItem(ModItems.PURPLE_1_BOOTS);
+
+        simpleItem(ModItems.PURPLE_2_HELMET);
+        simpleItem(ModItems.PURPLE_2_CHESTPLATE);
+        simpleItem(ModItems.PURPLE_2_LEGGINGS);
+        simpleItem(ModItems.PURPLE_2_BOOTS);
+
+        simpleItem(ModItems.RED_1_HELMET);
+        simpleItem(ModItems.RED_1_CHESTPLATE);
+        simpleItem(ModItems.RED_1_LEGGINGS);
+        simpleItem(ModItems.RED_1_BOOTS);
+
+        simpleItem(ModItems.RED_2_HELMET);
+        simpleItem(ModItems.RED_2_CHESTPLATE);
+        simpleItem(ModItems.RED_2_LEGGINGS);
+        simpleItem(ModItems.RED_2_BOOTS);
+
+        simpleItem(ModItems.WHITE_1_HELMET);
+        simpleItem(ModItems.WHITE_1_CHESTPLATE);
+        simpleItem(ModItems.WHITE_1_LEGGINGS);
+        simpleItem(ModItems.WHITE_1_BOOTS);
+
+        simpleItem(ModItems.YELLOW_1_HELMET);
+        simpleItem(ModItems.YELLOW_1_CHESTPLATE);
+        simpleItem(ModItems.YELLOW_1_LEGGINGS);
+        simpleItem(ModItems.YELLOW_1_BOOTS);
+
+        simpleItem(ModItems.YELLOW_2_HELMET);
+        simpleItem(ModItems.YELLOW_2_CHESTPLATE);
+        simpleItem(ModItems.YELLOW_2_LEGGINGS);
+        simpleItem(ModItems.YELLOW_2_BOOTS);
+
+        handheldItem(ModItems.GILDED_BROADSWORD);
         handheldItem(ModItems.GILDED_CLAWS);
         handheldItem(ModItems.GILDED_DAGGER);
-        handheldItem(ModItems.GILDED_GREATSWORD);
-        handheldItem(ModItems.GILDED_HAMMER);
-        handheldItem(ModItems.GILDED_HALBERD);
+        //handheldItem(ModItems.GILDED_GREATSWORD);
+        //handheldItem(ModItems.GILDED_HAMMER);
+        //handheldItem(ModItems.GILDED_HALBERD);
         handheldItem(ModItems.GILDED_MACE);
         handheldItem(ModItems.GILDED_RAPIER);
         handheldItem(ModItems.GILDED_SICKLE);
+
+        handheldItem(ModItems.ANCIENT_BROADSWORD);
+        handheldItem(ModItems.ANCIENT_CLAWS);
+        handheldItem(ModItems.ANCIENT_DAGGER);
+        //handheldItem(ModItems.ANCIENT_GREATSWORD);
+        //handheldItem(ModItems.ANCIENT_HAMMER);
+        //handheldItem(ModItems.ANCIENT_HALBERD);
+        handheldItem(ModItems.ANCIENT_MACE);
+        handheldItem(ModItems.ANCIENT_RAPIER);
+        handheldItem(ModItems.ANCIENT_SICKLE);
+
+        handheldItem(ModItems.BASIC_STEEL_BROADSWORD);
+        handheldItem(ModItems.BASIC_STEEL_CLAWS);
+        handheldItem(ModItems.BASIC_STEEL_DAGGER);
+        //handheldItem(ModItems.BASIC_STEEL_GREATSWORD);
+        //handheldItem(ModItems.BASIC_STEEL_HAMMER);
+        //handheldItem(ModItems.BASIC_STEEL_HALBERD);
+        handheldItem(ModItems.BASIC_STEEL_MACE);
+        handheldItem(ModItems.BASIC_STEEL_RAPIER);
+        handheldItem(ModItems.BASIC_STEEL_SICKLE);
 
         handheldItem(ModItems.HEAVY_CROSSBOW);
         handheldItem(ModItems.LIGHT_CROSSBOW);
         handheldItem(ModItems.LONGBOW);
         handheldItem(ModItems.RECURVE_BOW);
 
+        simpleItem(ModItems.WORLD_ANCHOR);
+
+        simpleItem(ModItems.PROPHECY_BOOK);
+        simpleItem(ModItems.RITE_BOOK);
+        simpleItem(ModItems.LORE_BOOK);
+
+
+        simpleItem(ModItems.FELLO_SUNGLASSES);
 
     }
 
